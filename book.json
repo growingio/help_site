@@ -1,0 +1,41 @@
+{
+  "title": "GrowingIO",
+  "plugins": ["-lunr", "-search","site-search","meta","sitemap","growingio", "expandable-chapters", "anchors"],
+  "pluginsConfig": {
+    "meta":{
+      "data":[
+        {
+          "name": "msvalidate.01",
+	  "content": "99B338147F2BC3B510154CD3A4222165"
+        },{
+          "name": "baidu-site-verification",
+          "content":"FCBWJksuIk"
+        }]
+    },
+    "site-search": {
+	"url": "https://cn.bing.com/search?q=",
+        "site": "site:docs.growingio.com"
+    },
+    "growingio": {
+      "cmds": [["setAccountId", "0a1b4118dd954ec3bcc69da5138bdb96"], ["setTrackerHost", "apifwd.growingio.com"]]
+    },
+    "sharing": {
+      "facebook": false,
+      "twitter": false,
+      "google": false,
+      "weibo": true,
+      "instapaper": false,
+      "vk": false,
+      "all": []
+    },
+   "sitemap": {
+     "hostname":"https://docs.growingio.com/"
+   },
+   "baidu_gio": {
+        "token": "9583dcf3fa397a42a843c896af76b49a"
+    }
+  },
+  "styles": {
+      "website": "styles/website.css"
+  }
+}
