@@ -130,7 +130,7 @@
 
 在渠道管理的资源权限管理模块可以对不同角色不同用户进行不同的推广活动权限控制。
 
-![!\[\]\(/assets/权限管理4.png\)](../.gitbook/assets/ziyuanquanxian.png)
+![!\[\]\(/assets/&#x6743;&#x9650;&#x7BA1;&#x7406;4.png\)](../.gitbook/assets/ziyuanquanxian.png)
 
 ## 数据权限
 

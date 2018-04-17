@@ -21,7 +21,7 @@ buildscript {
     }
     dependencies {
         classpath 'com.android.tools.build:gradle:3.0.1'
-        classpath 'com.growingio.android:vds-gradle-plugin:1.1.8'
+        classpath 'com.growingio.android:vds-gradle-plugin:1.1.9'
     }
 }
 
@@ -51,47 +51,8 @@ android {
     }
 } 
 dependencies {
-        compile 'com.growingio.android:vds-android-agent:1.1.8@aar'
+        compile 'com.growingio.android:vds-android-agent:1.1.9@aar'
 }
-```
-
-**Ant 编译环境**
-
-1.点击[0.9.103](https://growing.ufilesec.ucloud.cn/sdk/GrowingIO-Android-SDK.zip)下载最新版本的SDK。
-
-1.将下载后的文件解压得到的vds-android-agent.jar复制到工程的libs目录下。
-
-3.设置环境变量
-
-Mac或Linux:
-
-```groovy
-export ANT_OPTS="-javaagent:/path_to_growingio/vds-class-rewriter.jar"
-```
-
-Windows:
-
-在命令行中输入
-
-```groovy
-set ANT_OPTS="-javaagent:C:\path_to_growingio\vds-class-rewriter.jar"
-```
-
-4.修改资源文件
-
-在工程目录下的`res/values/strings.xml`文件中添加：
-
-```markup
-<string name="growingio_project_id">您的项目ID</string>
-<string name="growingio_url_scheme">您的URL Scheme</string>
-```
-
-5.添加必要权限
-
-```groovy
-<uses-permission android:name="android.permission.INTERNET" />
-<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-<uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
 ```
 
 ## 2. 添加URL Scheme
