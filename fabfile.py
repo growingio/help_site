@@ -8,6 +8,7 @@ env.hosts = "apps@cnprd3"
 def deploy():
     local("git pull")
     local("gitbook build")
+    local("cd _book && cp .gitbook/assets/* assets && sed -i 's/\.gitbook\///g' **/*.html && cd ..")
     run('[ -d "/tmp/_book" ] && rm -r /tmp/_book/*')
     put("_book/", "/tmp")
     run('[ -d "/tmp/_back" ] && rm -r /tmp/_back/*')

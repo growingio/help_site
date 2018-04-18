@@ -16,3 +16,4 @@ _book
 *.pdf
 fabfile.pyc
 
+.idea
