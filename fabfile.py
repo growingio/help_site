@@ -10,8 +10,9 @@ def deploy():
     local('[ -d "_book" ] && rm -rf _book')
     local("gitbook build")
     local("cp ./_book/.gitbook/assets/* ./_book/assets/")
+    local("rm -rf ./_book/.gitbook")
     #local('sed -i 's/\.gitbook\///g' ./_book/**/*.html')  # 连续两个*在命令行可以，但是这里运行无效
-    local('find . -name "*.html" |xargs sed -i "s#.gitbook/##g"')
+    local('find . -name "*.html" |xargs sed -i "s#\.gitbook/##g"')
     run('[ -d "/tmp/_book" ] && rm -r /tmp/_book/*')
     put("_book/", "/tmp")
     run('[ -d "/tmp/_back" ] && rm -r /tmp/_back/*')
