@@ -7,8 +7,10 @@ env.hosts = "apps@cnprd3"
 @task
 def deploy():
     local("git pull")
+    local('[ -d "_book" ] rm -rf _book')
     local("gitbook build")
-    local("cd _book && cp .gitbook/assets/* assets && sed -i 's/\.gitbook\///g' **/*.html && cd ..")
+    local("cp ./_book/.gitbook/assets/* ./_book/assets/")
+    local('find . -name "*.html" |xargs sed -i "s#.gitbook##g"')
     run('[ -d "/tmp/_book" ] && rm -r /tmp/_book/*')
     put("_book/", "/tmp")
     run('[ -d "/tmp/_back" ] && rm -r /tmp/_back/*')
