@@ -17,3 +17,4 @@ _book
 fabfile.pyc
 
 .idea
+.DS_Store
