@@ -8,5 +8,5 @@
 
 [![](../../.gitbook/assets/4.jpg)](https://blog.growingio.com/columns/4/articles)
 
-![](../../.gitbook/assets/5.jpg)
+[![](../../.gitbook/assets/5.jpg)](https://docs.growingio.com/guang-gao-jian-ce/xue-xi-zi-liao/utm-can-shu-shi-yong-zhi-nan.html)
 
