@@ -15,7 +15,7 @@
 
 ## 原始数据导出 2.0 API 接口定义
 
-GET [https://www.growingio.com/v2/insights/{export\_type}/{data\_type}/{ai}/{export\_date}.json](https://www.growingio.com/v2/insights/{export_type}/{data_type}/{ai}/{export_date}.json)
+GET [https://www.growingio.com/v2/insights/{export\_type}/{data\_type}/{ai}/{export\_date}.json](https://www.growingio.com/v2/insights/{export_type}/{data_type}/{ai}/{export_date}.json)?expire={minutes}
 
 其中
 
@@ -35,6 +35,7 @@ GET [https://www.growingio.com/v2/insights/{export\_type}/{data\_type}/{ai}/{exp
 * {export\_date} —— 导出数据北京时间，格式为 yyyyMMddHHmm，表示请求导出哪段时间内的数据；分为以下情况：
   * 当 {export\_type} 为 day 时，只会截取 export\_date 中 yyyyMMdd，其余将忽略
   * 当 {export\_type} 为 hour 时，只会截取 export\_date 中 yyyyMMddHH，其余将忽略
+* {minutes} —— 生成的链接的失效时间，单位为分钟，如果不设定，返回的所有链接将会在 5 分钟后失效
 
 请求返回的数据格式为:
 
