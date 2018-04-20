@@ -1,7 +1,5 @@
 # 原始数据导出 1.0 API（deprecated）
 
-## 原始数据导出 1.0 API （deprecated）
-
 注意：
 
 **原始数据导出 2.0 API 已经上线，原始数据导出 1.0 API 将于 2018年5月12日下线。请及时按照**[**原始数据导出 2.0 API**](yuan-shi-shu-ju-dao-chu-2.0-api.md)**的字段格式更新原始数据的ETL脚本程序。**
