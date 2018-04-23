@@ -6,7 +6,18 @@
 
 请确保您的 XCode 版本为 7.3 或者其后的版本。
 
-GrowingIO 支持两种 iOS SDK 安装方式： A. 使用 CocoaPods 管理依赖 1. 添加 `pod 'GrowingIO', '~> 1.4.1'` 到 Podfile 中； 2. 执行 `pod update`，**不要用**`--no-repo-update`**选项**； 3. 直接进入**安装文档的第五步**； B. 手动安装依赖 1. 点击[1.4.1版](http://assets.growingio.com/sdk/GrowingIO-iOS-SDK-1.4.1.zip)下载 iOS SDK 2. 进行安装文档的第二步
+GrowingIO 支持两种 iOS SDK 安装方式： 
+
+A. 使用 CocoaPods 管理依赖 
+
+1. 添加 `pod 'GrowingIO', '~> 1.4.1'` 到 Podfile 中； 
+2. 执行 `pod update`，**不要用**`--no-repo-update`**选项**； 
+3. 直接进入**安装文档的第五步**； 
+
+B. 手动安装依赖 
+
+1. 点击[1.4.1版](http://assets.growingio.com/sdk/GrowingIO-iOS-SDK-1.4.1.zip)下载 iOS SDK 
+2. 进行安装文档的第二步
 
 ## 2. 导入 SDK
 
