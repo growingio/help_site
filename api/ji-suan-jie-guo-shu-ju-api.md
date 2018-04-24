@@ -106,9 +106,6 @@ Status Code: 200 OK
     [dimension1_v1, dimension2_v1, metric1, metric2],
     [dimension1_v2, dimension2_v1, metric1, metric2]
 
-    // 漏斗
-    [metric1, metric2, metric3]
-
     // 聚合数字
     [metric1]
 
