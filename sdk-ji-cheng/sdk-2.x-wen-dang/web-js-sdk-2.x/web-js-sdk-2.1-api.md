@@ -201,3 +201,21 @@ gio('setUserId', '1234567890');
 gio('clearUserId');
 ```
 
+### sendPage
+
+以下情况GrowingIO会采集页面浏览数据：
+
+* 页面被渲染一次
+* 页面URL发生变化
+
+当页面局部刷新，URL没有发生变化，GIO无法自动统计页面浏览量时，您可以手动发送页面浏览事件。
+
+```text
+//sendPage API原型和调用示例
+gio('sendPage')
+```
+
+
+
+###  
+

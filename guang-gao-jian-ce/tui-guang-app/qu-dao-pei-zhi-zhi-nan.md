@@ -4,12 +4,11 @@
 
 1. 进入GIO后台，为今日头条的投放生成一条监测链接。进入“渠道管理”模块，点击“今日头条”，“是否回传激活”字段设置为“是”。  
 
+![](../../.gitbook/assets/9.png)
 
-   ![](../../.gitbook/assets/9.png)
-
-2. 进入头条后台，“工具箱”。新建“转化跟踪”。
-3. 进行移动应用APP API转化新建。输入应用下载地址，比如APP的iTunes下载地址。
-4. 配置完成后，请按照今日头条自动联调流程完成后续过程，联调成功后进行计划引用。
+1. 进入头条后台，“工具箱”。新建“转化跟踪”。
+2. 进行移动应用APP API转化新建。输入应用下载地址，比如APP的iTunes下载地址。
+3. 配置完成后，请按照今日头条自动联调流程完成后续过程，联调成功后进行计划引用。
 
 ![](../../.gitbook/assets/10%20%281%29.png)
 
@@ -52,8 +51,11 @@
    ![](../../.gitbook/assets/15.png)
 
 ## Inmobi
+
 1. 进入Growingio广告监测后台，进入推广管理，创建监测并选取Inmobi渠道，生成监测链接。
 2. 进入Inmobi后台，创建主张，选择GrowingIO渠道，创建成功后，将Inmobi生成的appID复制并填写到GrowingIO后台相应链接上。
-![](../../.gitbook/assets/inmobi1.png)
-![](../../.gitbook/assets/inmobi2.png)
+
+   ![](../../.gitbook/assets/inmobi1.png)
+
+   ![](../../.gitbook/assets/inmobi2.png)
 
