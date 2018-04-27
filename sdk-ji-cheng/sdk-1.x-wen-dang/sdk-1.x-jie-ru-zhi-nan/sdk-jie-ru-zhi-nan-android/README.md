@@ -39,6 +39,8 @@ allprojects {
 1. 添加新产品：登录官网 -&gt; 点击新建，选择添加新产品 -&gt; 选择添加Android应用 -&gt; 在第二段“添加URLScheme”中标黄字体。   
 2. 现有产品：登录官网 -&gt; 右上角点击用户头像 -&gt; 点击“项目管理” -&gt; 点击左侧的“应用管理” -&gt; 找到对应产品的URL Scheme。
 
+
+
 ### URL Scheme的格式是growing.xxxxxxxxxxxxxxxx
 
 ```groovy
