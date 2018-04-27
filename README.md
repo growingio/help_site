@@ -44,7 +44,7 @@ GrowingIO提供丰富的数据展现和分析工具，帮助您更好地了解�
 
 GrowingIO 还可以帮助您推广网站/App并衡量推广效果，监测不同渠道质量，并提供渠道反作弊等多重强大能力：
 
-* [渠道管理](guang-gao-jian-ce/)
+* [广告监测](guang-gao-jian-ce/)
 * [推广网站](guang-gao-jian-ce/tui-guang-wang-zhan/)
 * [推广App](guang-gao-jian-ce/tui-guang-app/)   
 
