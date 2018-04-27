@@ -98,7 +98,7 @@
 * [常见问题](chang-jian-wen-ti/README.md)
   * [基本问题](chang-jian-wen-ti/ji-ben-wen-ti.md)
   * [圈选指标](chang-jian-wen-ti/quan-xuan-zhi-biao.md)
-  * [属性数据](chang-jian-wen-ti/shu-xing-shu-ju.md)
+  * [用户属性数据](chang-jian-wen-ti/shu-xing-shu-ju.md)
   * [数据质量](chang-jian-wen-ti/shu-ju-zhi-liang.md)
   * [名词解释](chang-jian-wen-ti/ming-ci-jie-shi.md)
   * [产品使用](chang-jian-wen-ti/chan-pin-shi-yong.md)
