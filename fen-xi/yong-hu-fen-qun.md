@@ -8,7 +8,7 @@
 ### 1.确定分群名称，根据需求选择「用户类型」：
 
 * 访问用户 ID ：根据独立 Cookie 定义出来的用户，ID 是 GrowingIO 生成的。便于分析“访客”在网站或应用上的行为； 
-* 登录用户 ID ：使用您的帐号登录ID进行判断，需要先[上传 CS 字段](https://docs.growingio.com/attribution-data.html)。
+* 登录用户 ID ：使用您的帐号登录ID进行判断，需要先[上传 CS 字段](../sdk-ji-cheng/sdk-1.x-wen-dang/shu-xing-shu-ju-cs-shang-chuan-pei-zhi-zhi-nan/)。
 
 ![](../.gitbook/assets/1%20%281%29.png)
 
@@ -16,13 +16,13 @@
 
 指标：首页访客数量，点击按钮次数，申请注册转化率等，我们预置了常见的全局指标，你通过圈选定义的指标也会出现在这里。
 
-维度：包括访问来源，浏览器，操作系统，广告渠道等，也可以上传[用户属性字段](https://docs.growingio.com/cs-info.html)。
+维度：包括访问来源，浏览器，操作系统，广告渠道等，也可以上传[用户属性字段](../sdk-ji-cheng/sdk-1.x-wen-dang/shu-xing-shu-ju-cs-shang-chuan-pei-zhi-zhi-nan/shu-xing-shu-ju-jian-jie.md)。
 
 ![](../.gitbook/assets/2%20%286%29.png)
 
 ### 3.保存分群后的操作：
 
-* 保存分群并等待后台计算结束后，就可以在用户分群的首页看到该分群的条目，点击进入即可查看这部分用户的详细操作，即[「用户细查」](https://docs.growingio.com/用户细查.html)。
+* 保存分群并等待后台计算结束后，就可以在用户分群的首页看到该分群的条目，点击进入即可查看这部分用户的详细操作，即[「用户细查」](yong-hu-xi-cha.md)。
 * 还可以在漏斗等其他功能中，用该分群对已有图表进行过滤。
 
 ## 应用场景
@@ -50,6 +50,4 @@
 4.选择指标「某个特定行为：注册完成」&gt;0的条件，这时我们就选择了有这个行为的用户；
 
 保存后，就建立了符合条件的用户分群。
-
-** 若有疑问？请参考\[常见问题－指标维度相关解释 \(**[https://docs.growingio.com/FAQ/circle.html](https://docs.growingio.com/FAQ/circle.html)**\) **
 

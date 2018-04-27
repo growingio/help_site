@@ -60,7 +60,7 @@
   * [留存分析](fen-xi/liu-cun-fen-xi.md)
   * [热图](fen-xi/re-tu/README.md)
     * [Web端热图](fen-xi/re-tu/web-duan-re-tu.md)
-    * [移动端](fen-xi/re-tu/yi-dong-duan.md)
+    * [移动端热图](fen-xi/re-tu/yi-dong-duan.md)
   * [留存魔法师](fen-xi/liu-cun-mo-fa-shi.md)
   * [用户活跃分析](fen-xi/yong-hu-huo-yue-fen-xi.md)
   * [智能路径](fen-xi/zhi-neng-lu-jing.md)
