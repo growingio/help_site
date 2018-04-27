@@ -35,6 +35,8 @@ URL Scheme的格式是growing.xxxxxxxxxxxxxxxx，它的获取方式有两种：
 * 新产品的 URL Scheme ：登录官网 -&gt;点击项目选择框 -&gt; 点击“项目管理” -&gt; 点击“应用管理” -&gt; 点击“新建应用”-&gt; 选择添加Android应用 -&gt; 第二段中"此应用的 URL Scheme 为:growing.xxxxxxxxxxxxxxxx”中标黄字体。
 * 现有产品的 URL Scheme ：登录官网 -&gt;点击项目选择框 -&gt; 点击“项目管理” -&gt; 点击“应用管理” -&gt; 找到对应产品的URL Scheme。
 
+![&#x9879;&#x76EE;&#x7BA1;&#x7406;](../../../.gitbook/assets/image%20%281%29.png)
+
 ```java
 apply plugin: 'com.android.application'
 //添加插件
