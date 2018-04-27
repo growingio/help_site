@@ -406,9 +406,5 @@ GrowingIO.setTabName(content, "MyContent");
 
 如果您有自定义的控件重写了`View`的`onTouchEvent`方法来判断和处理点击事件，那么必须调用它的`PerformClick`，并且设置相应的`onClickListener`。
 
-### 自定义数据接收服务器
-
-GrowingIO SDK 支持自定义行为数据接收服务器，用户可以选择数据先采集到自己的服务器做一些处理（比如审计）然后转发到 GrowingIO 服务器。详情参见 [CustomTrackerHost](https://github.com/growingio/help_site/tree/f4b4103b288205f6a9b13e0c4692f4d65a2ab386/Features/CustomTrackerHost.html)
-
 至此，您的SDK安装就成功了。您登录 GrowingIO 进入产品安装页面执行“数据检测”几分钟后就可以看到数据了。
 

@@ -14,9 +14,9 @@
 
 请您参考以下开发文档，完成SDK初始化代码的添加。
 
-* [Web 2.x 版本 SDK 开发文档](https://docs.growingio.com/sdk-20/sdk-20-api-wen-dang/web-js-sdk-an-zhuang-jie-ru.html)
-* [Android 2.x 版本 SDK 开发文档](https://docs.growingio.com/sdk-20/sdk-20-api-wen-dang/android-sdk-21-an-zhuang.html)
-* [iOS 2.x 版本 SDK 开发文档](https://docs.growingio.com/sdk-20/sdk-20-api-wen-dang/ios-sdk-21-an-zhuang.html)
+* [Web 2.x 版本 SDK 开发文档](web-js-sdk-2.x/)
+* [Android 2.x 版本 SDK 开发文档](android-sdk-2.x/)
+* [iOS 2.x 版本 SDK 开发文档](ios-sdk-2.x/)
 
 Tips：建议您在开发中，使用 debug mode 校验 GrowingIO SDK 的数据是否正常上传。开启 debug mode 的方式请见上述文档中初始化方法部分。
 
@@ -28,7 +28,7 @@ Tips：建议您在开发中，使用 debug mode 校验 GrowingIO SDK 的数据�
 
 * CS1字段，会强制命名为“登陆用户ID”，并且上传接口与其他变量不同。
 * CS2-10字段，会迁移至“应用级变量”，应用级变量与CS字段的使用方式无任何区别。
-* CS11-20字段，会迁移至[“用户变量”](https://docs.growingio.com/zi-ding-yi-bian-liang/si-zhong-bu-tong-lei-xing-de-zi-ding-yi-bian-liang/yong-hu-bian-liang.html)。两者的区别主要在于：用户变量支持自定义的归因方式。
+* CS11-20字段，会迁移至“[用户变量](../../shu-ju-shi-shi/zi-ding-yi-shi-jian-ji-bian-liang/zi-ding-yi-bian-liang/ge-lei-xing-zi-ding-yi-bian-liang-jie-shao/yong-hu-bian-liang.md)”。两者的区别主要在于：用户变量支持自定义的归因方式。
 
 #### 2.1 上传接口：
 
@@ -154,13 +154,13 @@ gio.setPeopleVariable(JSONObject peopleVariables);// 多个变量，可组合为
 
 #### 2.2 GrowingIO 后台配置
 
-在 GrowingIO 后台进行用户属性字段配置，是在 “项目配置” - “CS字段配置” 页面。升级至 2.x 版本后，取消了上述配置方式。您可以在 **“管理” - “自定义事件和变量” 页面中的 “应用级变量” 和 “用户变量” Tab 页**分别找到自动为您迁移过去的两种变量的配置。配置方式请参考[相关帮助文档](https://docs.growingio.com/sdk-20/zidingyi_config/zidingyi_config.html)。
+在 GrowingIO 后台进行用户属性字段配置，是在 “项目配置” - “CS字段配置” 页面。升级至 2.x 版本后，取消了上述配置方式。您可以在 **“管理” - “自定义事件和变量” 页面中的 “应用级变量” 和 “用户变量” Tab 页**分别找到自动为您迁移过去的两种变量的配置。配置方式请参考[相关帮助文档](../sdk-1.x-wen-dang/zi-ding-yi-shu-ju-shang-chuan-pei-zhi-zhi-nan.md)。
 
 #### 3. 迁移页面属性字段（PS字段）
 
 如果您未做页面属性字段上传，请忽略此部分。
 
-类似于用户属性字段，在 2.x 版本中，页面属性字段被迁移到了[“页面级变量”](https://docs.growingio.com/zi-ding-yi-bian-liang/si-zhong-bu-tong-lei-xing-de-zi-ding-yi-bian-liang/ye-mian-ji-bian-liang.html)。与页面属性字段不同的是，**页面级变量相当于过去的 PS 字段，不再存在过去的 PG 字段**。
+类似于用户属性字段，在 2.x 版本中，页面属性字段被迁移到了[“页面级变量”](../../shu-ju-shi-shi/zi-ding-yi-shi-jian-ji-bian-liang/zi-ding-yi-bian-liang/ge-lei-xing-zi-ding-yi-bian-liang-jie-shao/ye-mian-ji-bian-liang.md)。与页面属性字段不同的是，**页面级变量相当于过去的 PS 字段，不再存在过去的 PG 字段**。
 
 **3.1 上传接口**
 
@@ -310,7 +310,7 @@ GrowingIO 提供了 SDK debug 模式以及 debug 工具，来帮助您完成数�
 
 1. Web 端
 
-对 Web 端的开发者，GrowingIO 提供了 Chrome 浏览器插件形式的 debug 工具，请在[这里](https://docs.growingio.com/growingio-web-debugger.html)下载安装。
+对 Web 端的开发者，GrowingIO 提供了 Chrome 浏览器插件形式的 debug 工具，请在[这里](../growingio-web-debugger/growingio-web-debugger-an-zhuang.md)下载安装。
 
 debug 工具的工作界面如下图：
 

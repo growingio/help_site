@@ -6,5 +6,5 @@
 * [Android](sdk-jie-ru-zhi-nan-android/)
 * [Web](sdk-jie-ru-zhi-nan-js.md)
 
-请您邀请您的研发同事，按照接入指南来进行 SDK 的快速接入。如果您对GrowingIO SDK 的安全性有疑问，请参阅： [安全性说明](https://docs.growingio.com/Safety_instructions.html)
+请您邀请您的研发同事，按照接入指南来进行 SDK 的快速接入。如果您对GrowingIO SDK 的安全性有疑问，请参阅： [安全性说明](an-quan-xing-shuo-ming.md)
 

@@ -1,6 +1,6 @@
 # 自定义数据上传&配置指南
 
-如果您使用的2.0或以上版本的SDK，请参考[此文档](https://docs.growingio.com/sdk-20/zidingyi_config/zidingyi_config.html)进行自定义数据的上传和配置。
+如果您使用的2.0或以上版本的SDK，请参考[此文档](../sdk-2.x-wen-dang/zi-ding-yi-shu-ju-shang-chuan-pei-zhi-zhi-dao.md)进行自定义数据的上传和配置。
 
 ## “自定义事件” 上传方式
 

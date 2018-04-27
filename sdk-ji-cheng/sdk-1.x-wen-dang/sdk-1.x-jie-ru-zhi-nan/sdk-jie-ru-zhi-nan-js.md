@@ -103,7 +103,7 @@ _vds.push(['setCS10', 'CS10的key', 'CS10的value']);
     </script>
 ```
 
-**在上传成功两小时后，您需要在「项目管理-项目配置-CS 配置中」进行字段配置和激活，配置成功后便可开始使用 CS 字段进行分析。配置过程可参考 **[**属性数据\(CS\)上传配置文档**](https://docs.growingio.com/attribution-data.html)**。**
+**在上传成功两小时后，您需要在「项目管理-项目配置-CS 配置中」进行字段配置和激活，配置成功后便可开始使用 CS 字段进行分析。配置过程可参考 **[**属性数据\(CS\)上传配置文档**](../shu-xing-shu-ju-cs-shang-chuan-pei-zhi-zhi-nan/)**。**
 
 ## JS SDK高级功能说明
 

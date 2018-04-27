@@ -283,5 +283,5 @@ X-Frame-Options: Allow-From https://www.growingio.com
 
 GrowingIO根据您网站HTML结构识别和定义页面上的元素。有的时候网站上的HTML标签写法完全相同，呈现在页面上的几个同类元素，可能HTML代码完全相同。此时GrowingIO采集、圈选数据时无法区分开。我们通过HTML标签的id和class来区分元素，这种情况下您可以在需要区分的标签class中添加一些字符串用于区分。
 
-**仍有疑问？请参考**[**常见问题－圈选部分**](https://docs.growingio.com/FAQ/terms.html)
+**仍有疑问？请参考**[**常见问题－圈选部分**](../../chang-jian-wen-ti/quan-xuan-zhi-biao.md)
 

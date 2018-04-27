@@ -161,5 +161,5 @@ GrowingIO一共提供19个预定义指标，用户可以按需使用它们来回
       2. 指标含义
          1. 对页面的浏览次数
 
-## 仍有疑问？请参考[常见问题－名词解释](https://docs.growingio.com/FAQ/terms.html)，查看关于指标的常见问题
+## 仍有疑问？请参考[常见问题－名词解释](../../chang-jian-wen-ti/ming-ci-jie-shi.md)，查看关于指标的常见问题
 

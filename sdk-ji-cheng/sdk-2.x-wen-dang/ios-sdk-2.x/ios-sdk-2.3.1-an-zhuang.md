@@ -230,5 +230,5 @@ view3.growingAttributesValue = @“ad3”;
 
 至此，您的SDK安装就成功了。登录 GrowingIO 进入产品安装页面执行“数据检测”，几分钟后就可以看到数据了。
 
-** 其他设置（如设置“登录用户ID”）请前往 **[**iOS SDK 2.3.1 API中查看**](https://docs.growingio.com/sdk-20/sdk-20-api-wen-dang/ios-sdk-api-wen-dang.html)**。**
+** 其他设置（如设置“登录用户ID”）请前往 **[**iOS SDK 2.3.1 API中查看**](ios-sdk-2.3.1-api.md)**。**
 
