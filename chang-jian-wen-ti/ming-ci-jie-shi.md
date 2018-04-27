@@ -1,7 +1,7 @@
 # 名词解释
 
-* [预定义指标的名词解释](https://docs.growingio.com/growingio-shu-ju-mo-xing/zhi-biao.html)
-* [预定义维度的名词解释](https://docs.growingio.com/growingio-shu-ju-mo-xing/yu-ding-yi-wei-du.html)
+* [预定义指标的名词解释](../shu-ju-shi-shi/shu-ju-mo-xing/yu-ding-yi-zhi-biao.md)
+* [预定义维度的名词解释](../shu-ju-shi-shi/shu-ju-mo-xing/yu-ding-yi-wei-du.md)
 
 ## 指标
 
@@ -11,7 +11,7 @@ PV 即 Pageview 表示访问了多少页面，UV 是 unique visitor 独立访客
 
 ### 2.访问用户和登录用户有什么区别？
 
-访问用户是基于浏览器 cookie 或者移动设备 ID 等具有唯一标识性的 ID 信息计算的；登录用户是根据用户上传的 CS1 字段计算的。 （关于CS字段上传，请参考：[属性数据\(CS\)上传服务说明文档](https://docs.growingio.com/attribution-data.html)）
+访问用户是基于浏览器 cookie 或者移动设备 ID 等具有唯一标识性的 ID 信息计算的；登录用户是根据用户上传的 CS1 字段计算的。 （关于CS字段上传，请参考：[属性数据\(CS\)上传服务说明文档](../sdk-ji-cheng/sdk-1.x-wen-dang/shu-xing-shu-ju-cs-shang-chuan-pei-zhi-zhi-nan/)）
 
 ### 3.标签的浏览量和点击量是怎么计算的呢？
 
@@ -93,7 +93,7 @@ GrowingIO 从集成代码后开始获取用户数据，因此在刚刚集成代�
 统计产品功能的活跃度：  
 比如您想了解用户使用某一功能的情况：用户要想完整的体验一个功能需要点击ABC三个按钮。这时候您只需要将这三个按钮的点击量相加即可。
 
-**复合指标制作请看**[**这里**](https://docs.growingio.com/Features/circle/tag.html)**。**
+**复合指标制作请看**[**这里**](../shu-ju-shi-shi/quan-xuan-zhi-biao-guan-li.md#fu-he-zhi-biao)**。**
 
 ## 维度
 
