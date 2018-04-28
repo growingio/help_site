@@ -371,6 +371,8 @@ GrowingIO SDK 支持自定义行为数据接收服务器，用户可以选择数
 
 至此，您的SDK安装就成功了。您登录 GrowingIO 进入产品安装页面执行“数据检测”几分钟后就可以看到数据了。
 
+ 您可以在您的App中激活GrowingIO的SDK，并且进行数据定义。具体的激活以及数据定义的方法，请查看 [移动端圈选](https://docs.growingio.com/shu-ju-shi-shi/quan-xuan/yi-dong-duan-quan-xuan.html)
+
 ## 常见问题
 
 ### 1.为什么 GrowingIO 使用 IDFA?
