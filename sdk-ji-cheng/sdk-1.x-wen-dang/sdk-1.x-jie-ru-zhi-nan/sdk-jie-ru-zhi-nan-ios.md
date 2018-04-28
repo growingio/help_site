@@ -1,7 +1,5 @@
 # SDK接入指南（iOS）
 
-[更新日志](https://blog.growingio.com/posts/iOS_changelog)
-
 ## 1. 选择 SDK 安装方式
 
 请确保您的 XCode 版本为 7.3 或者其后的版本。
