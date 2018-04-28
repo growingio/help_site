@@ -26,6 +26,8 @@ URL**示意：**www.xxx.com **/ **12345/678/123 **? **id=1&ig=2
     _vds.push(['enableHT', true])
 ```
 
+接下来开始定义页面：
+
 ![](../../.gitbook/assets/2.-ding-yi-ye-mian.gif)
 
 点击「定义页面」
