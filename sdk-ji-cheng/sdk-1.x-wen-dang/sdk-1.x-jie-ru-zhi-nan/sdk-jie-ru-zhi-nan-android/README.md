@@ -8,9 +8,9 @@
 
 ## 1. 导入SDK
 
-**Gradle 编译环境（Android Studio）**
+Gradle 编译环境（Android Studio）
 
-一、在project级别的build.gradle文件中添加`vds-gradle-plugin`依赖：
+#### 一、在project级别的build.gradle文件中添加`vds-gradle-plugin`依赖：
 
 ```groovy
 buildscript {
@@ -30,16 +30,14 @@ allprojects {
 }
 ```
 
-二、在module级别的build.gradle文件中添加`com.growingio.android`插件、`vds-android-agent`依赖和对应的资源：
+#### 二、在module级别的build.gradle文件中添加`com.growingio.android`插件、`vds-android-agent`依赖和对应的资源：
 
-### URL Scheme获取方式有两种
+URL Scheme的格式是growing.xxxxxxxxxxxxxxxx，它的获取方式有两种
 
-1. 添加新产品：登录官网 -&gt; 点击项目选择框 -&gt; 点击“项目管理” -&gt; 点击“应用管理” -&gt; 点击“新建应用”-&gt;选择添加Android应用 -&gt;填写“应用名称“，点击下一步-&gt;在第二段中标黄字体。   
+1. 添加新产品：登录官网 -&gt;点击项目选择框 -&gt; 点击“项目管理” -&gt; 点击“应用管理” -&gt; 点击“新建应用”-&gt; 选择添加Android应用 -&gt; 第二段中"此应用的 URL Scheme 为:growing.xxxxxxxxxxxxxxxx”中标黄字体。  
 2. 现有产品：登录官网 -&gt; 点击项目选择框 -&gt; 点击“项目管理” -&gt; 点击“应用管理” -&gt; 找到对应产品的URL Scheme。
 
 ![&#x9879;&#x76EE;&#x7BA1;&#x7406;](../../../../.gitbook/assets/image%20%282%29.png)
-
-### URL Scheme的格式是growing.xxxxxxxxxxxxxxxx
 
 ```groovy
 apply plugin: 'com.android.application'
