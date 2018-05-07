@@ -203,16 +203,13 @@ gio('clearUserId');
 
 ### sendPage
 
-以下情况GrowingIO会采集页面浏览数据：
+在默认情况下，由于用户浏览网站的交互行为导致当前页面的URL产生变化时，GrowingIO的Web JS SDK会发送一个page类型的请求。在一些特殊的情况下，例如用户在访问单页应用（Single Page Application）类型的网站时，用户的操作会导致业务上面理解的页面产生了变化，但是当前的URL可能并没有改变。
 
-* 页面被渲染一次
-* 页面URL发生变化
-
-当页面局部刷新，URL没有发生变化，GIO无法自动统计页面浏览量时，您可以手动发送页面浏览事件。
+这时，可以调用GrowingIO提供的sendPage接口手动发送页面浏览事件。这个接口的调用将会发送出一条‘page’类型的数据，GIO服务器在收到page类型的数据之后，页面浏览量这个预定义指标会加1。
 
 ```text
 //sendPage API原型和调用示例
-gio('sendPage')
+gio('sendPage');
 ```
 
 ###  
