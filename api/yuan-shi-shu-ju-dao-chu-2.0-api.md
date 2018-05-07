@@ -343,6 +343,9 @@ evar：新增类型
 | linkId | link\_id | string | 链接ID（link id） | Yo1KJXRl | 监测链接ID |
 | campaignId | campaign\_id | string | 活动ID（campaign id） | GPndl79Y | 活动ID |
 | channelId | channel\_id | string | 渠道ID（channel id） | inmobi | 渠道ID |
+| linkName | link\_name | string | 链接名称 | 测试链接 | 2018/5/8 开始生效 |
+| campaignName | campaign\_name | string | 活动名称 | 双十一推广 | 2018/5/8 开始生效 |
+| channelName | channel\_name | string | 渠道名称 | 今日头条 | 2018/5/8 开始生效 |
 
 ### ads\_track\_click 请求导出字段
 
@@ -360,4 +363,7 @@ evar：新增类型
 | linkId | link\_id | string | 链接ID（link id） | Yo1KJXRl | 监测链接ID |
 | campaignId | campaign\_id | string | 活动ID（campaign id） | GPndl79Y | 活动ID |
 | channelId | channel\_id | string | 渠道ID（channel id） | inmobi | 渠道ID |
+| linkName | link\_name | string | 链接名称 | 测试链接 | 2018/5/8 开始生效 |
+| campaignName | campaign\_name | string | 活动名称 | 双十一推广 | 2018/5/8 开始生效 |
+| channelName | channel\_name | string | 渠道名称 | 今日头条 | 2018/5/8 开始生效 |
 
