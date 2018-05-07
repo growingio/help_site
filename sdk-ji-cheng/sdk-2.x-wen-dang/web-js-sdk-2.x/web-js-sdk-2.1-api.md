@@ -36,22 +36,23 @@ gio('clearUserId');
 
 ### init
 
-初始化参数，设置Account ID和一些常用的配置项。
+初始化参数，设置项目ID和一些常用的配置项。
 
 参数：
 
 | 参数名称 | 参数类型 | 是否必须 | 说明 |
 | :--- | :--- | :--- | :--- |
-| accountId | String | 是 | 项目ID |
+| projectId | String | 是 | 项目ID |
 | options | JSON Object | 否 | 系统变量配置 |
 
 ```text
 //init API原型
-gio('init', accountId, options);
+gio('init', projectId, options);
 ```
 
 ```text
 //init API调用示例
+//配置imp类型的数据关闭发送
 gio('init', '1234567890', {'imp':false});
 ```
 
