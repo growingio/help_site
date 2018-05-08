@@ -6,6 +6,8 @@
 
 **原始数据导出 2.0 API 已经上线，如果原始数据导出功能需要升级到2.0版本请联系客户经理，并请及时按照**[**原始数据导出 2.0 API**](yuan-shi-shu-ju-dao-chu-2.0-api.md)**的字段格式更新原始数据的ETL脚本程序。**
 
+**如您使用的是 2.x 版本的 SDK，请务必使用**[** 2.0 版本的原始数据导出的 API**](https://docs.growingio.com/api/yuan-shi-shu-ju-dao-chu-2.0-api.html)。
+
 1. 导出时数据以每 64M 为单位分包发送，导出数据默认采用 gzip 压缩。原始数据中所有时间字段均为 [UTC](http://baike.baidu.com/link?url=T9ER87o8wd_ABq-oRrn839-Q2hxrV5WvIeQX2bJCOAWgne8C8BCw8yRWrISceZJEoR83GuIhdu0vSZFwzl4ngFrD7vUITsrlcY6U3Fj6lWCx7x0xWRTNDFOHkhJmnUW05hrb5df7vvz12EayMr_4b5QJZ1UcTs17ffae3wI18LNeF8j_4WpMZ_srcJHSXhpk) 时间，并非中国时间；此处导出的压缩包名也是由 UTC 时间命名。
 2. 原始数据导出为付费功能，且只能导出从开通日起的数据，原始数据仅保留15天，请定期下载。
 3. 在进行导出之前，请务必参考[“GrowingIO接口认证”文档](growingio-api-ren-zheng.md)，完成接口认证获取token。
