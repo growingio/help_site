@@ -222,6 +222,10 @@ GrowingIO全量数据划分成三个级别，visit，page，action
 | link\_id | 监测链接ID | string\(10\) | 监测链接ID | o3ox2dV |
 | campaign\_id | 推广活动ID | string\(10\) | 推广活动ID | 略 |
 | channel\_id | 目标渠道ID | string\(20\) | 目标渠道ID | 略 |
+| link\_name | 链接名称 | string | 链接名称 | 测试链接 |
+| campaign\_name | 活动名称 | string | 活动名称 | 双十一推广 |
+| channel\_name | 渠道名称  | string | 渠道名称 | 今日头条 |
+
 
 #### 点击日志 ads\_track\_click
 
@@ -238,6 +242,9 @@ GrowingIO全量数据划分成三个级别，visit，page，action
 | link\_id | 监测链接ID | string\(10\) | 监测链接ID | o3ox2dV |
 | campaign\_id | 推广活动ID | string\(10\) | 推广活动ID | 略 |
 | channel\_id | 目标渠道ID | string\(20\) | 目标渠道ID | 略 |
+| link\_name | 链接名称 | string | 链接名称 | 测试链接 |
+| campaign\_name | 活动名称 | string | 活动名称 | 双十一推广 |
+| channel\_name | 渠道名称  | string | 渠道名称 | 今日头条 |
 
 #### （老版）来源管理数据导出api
 
