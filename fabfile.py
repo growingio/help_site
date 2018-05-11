@@ -15,3 +15,9 @@ def deploy():
     run("mv /var/www/cms/new_help_html /tmp/_back")
     run("cp -r /tmp/_book  /var/www/cms/new_help_html")
     run("sudo /usr/sbin/nginx -s reload")
+
+
+#如何发布pdf
+#https://calibre-ebook.com/download 下载安装calibre
+#ln -s /Applications/calibre.app/Contents/MacOS/ebook-convert /usr/local/bin
+#gitbook pdf . GrowingIO帮助文档.pdf
