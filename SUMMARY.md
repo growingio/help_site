@@ -33,7 +33,7 @@
   * [移动端SDK数据发送策略](sdk-ji-cheng/yi-dong-duan-sdk-shu-ju-fa-song-ce-lve.md)
 * [数据实施](shu-ju-shi-shi/README.md)
   * [数据模型](shu-ju-shi-shi/shu-ju-mo-xing/README.md)
-    * [页面级维度增强](shu-ju-shi-shi/shu-ju-mo-xing/ye-mian-ji-wei-du-zeng-qiang/README.md)
+    * [网站页面级维度增强](shu-ju-shi-shi/shu-ju-mo-xing/ye-mian-ji-wei-du-zeng-qiang/README.md)
       * [指标概念迁移](shu-ju-shi-shi/shu-ju-mo-xing/ye-mian-ji-wei-du-zeng-qiang/zhi-biao-gai-nian-qian-yi.md)
     * [预定义指标](shu-ju-shi-shi/shu-ju-mo-xing/yu-ding-yi-zhi-biao.md)
     * [预定义维度](shu-ju-shi-shi/shu-ju-mo-xing/yu-ding-yi-wei-du.md)
