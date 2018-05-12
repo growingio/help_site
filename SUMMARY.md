@@ -41,7 +41,7 @@
     * [Web圈选](shu-ju-shi-shi/quan-xuan/web-quan-xuan.md)
     * [移动端圈选](shu-ju-shi-shi/quan-xuan/yi-dong-duan-quan-xuan.md)
     * [圈选命名规范](shu-ju-shi-shi/quan-xuan/quan-xuan-ming-ming-gui-fan.md)
-  * [自定义事件及变量](shu-ju-shi-shi/zi-ding-yi-shi-jian-ji-bian-liang/README.md)
+  * [事件及变量](shu-ju-shi-shi/zi-ding-yi-shi-jian-ji-bian-liang/README.md)
     * [自定义变量](shu-ju-shi-shi/zi-ding-yi-shi-jian-ji-bian-liang/zi-ding-yi-bian-liang/README.md)
       * [自定义变量使用方法](shu-ju-shi-shi/zi-ding-yi-shi-jian-ji-bian-liang/zi-ding-yi-bian-liang/zi-ding-yi-bian-liang-shi-yong-fang-fa.md)
       * [各类型自定义变量介绍](shu-ju-shi-shi/zi-ding-yi-shi-jian-ji-bian-liang/zi-ding-yi-bian-liang/ge-lei-xing-zi-ding-yi-bian-liang-jie-shao/README.md)
