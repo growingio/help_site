@@ -4,8 +4,8 @@ GrowingIO 是基于用户行为的新一代数据分析产品，吸取了国内�
 
 你可以点击以下链接快速了解GrowingIO的基础数据模型以及相关的名词解释
 
-* [预定义指标](shu-ju-shi-shi/shu-ju-mo-xing/yu-ding-yi-zhi-biao.md)
-* [预定义维度](shu-ju-shi-shi/shu-ju-mo-xing/yu-ding-yi-wei-du.md)
+* [预定义指标](implementation/shu-ju-mo-xing/predefined_metrics.md)
+* [预定义维度](implementation/shu-ju-mo-xing/yu-ding-yi-wei-du.md)
 * [名词解释](chang-jian-wen-ti/ming-ci-jie-shi.md)   
 
 GrowingIO支持丰富的用户平台数据采集，如:
@@ -18,8 +18,8 @@ GrowingIO可以使用自定义变量来提高数据定义的灵活性，如:
 
 * 自定义事件
 * 事件级变量
-* [页面级变量](shu-ju-shi-shi/shi-jian-ji-bian-liang/zi-ding-yi-bian-liang/ge-lei-xing-zi-ding-yi-bian-liang-jie-shao/ye-mian-ji-bian-liang.md)
-* [转化变量](shu-ju-shi-shi/shi-jian-ji-bian-liang/zi-ding-yi-bian-liang/ge-lei-xing-zi-ding-yi-bian-liang-jie-shao/zhuan-hua-bian-liang.md) 
+* [页面级变量](implementation/shi-jian-ji-bian-liang/zi-ding-yi-bian-liang/ge-lei-xing-zi-ding-yi-bian-liang-jie-shao/ye-mian-ji-bian-liang.md)
+* [转化变量](implementation/shi-jian-ji-bian-liang/zi-ding-yi-bian-liang/ge-lei-xing-zi-ding-yi-bian-liang-jie-shao/zhuan-hua-bian-liang.md) 
 
 GrowingIO提供丰富的数据展现和分析工具，帮助您更好地了解用户行为，发掘业务洞察，如:
 
