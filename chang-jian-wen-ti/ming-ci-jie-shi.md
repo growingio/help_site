@@ -1,7 +1,7 @@
 # 名词解释
 
 * [预定义指标的名词解释](../implementation/data_model/predefined_metrics.md)
-* [预定义维度的名词解释](../implementation/data_model/yu-ding-yi-wei-du.md)
+* [预定义维度的名词解释](../implementation/data_model/predefined_dimension.md)
 
 ## 指标
 

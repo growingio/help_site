@@ -36,7 +36,7 @@
     * [网站页面级维度增强](implementation/data_model/page_dimension_enhance/README.md)
       * [指标概念迁移](implementation/data_model/page_dimension_enhance/zhi-biao-gai-nian-qian-yi.md)
     * [预定义指标](implementation/data_model/predefined_metrics.md)
-    * [预定义维度](implementation/data_model/yu-ding-yi-wei-du.md)
+    * [预定义维度](implementation/data_model/predefined_dimension.md)
   * [圈选](implementation/quan-xuan/README.md)
     * [Web圈选](implementation/quan-xuan/web-quan-xuan.md)
     * [移动端圈选](implementation/quan-xuan/yi-dong-duan-quan-xuan.md)

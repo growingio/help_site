@@ -5,7 +5,7 @@ GrowingIO支持Web，Mobile App等多个用户平台，这给GrowingIO的数据�
 这部分可以帮助您快速了解GrowingIO的基础数据模型
 
 * [预定义指标](data_model/predefined_metrics.md)
-* [预定义维度](data_model/yu-ding-yi-wei-du.md)
+* [预定义维度](data_model/predefined_dimension.md)
 
 以及如何进行圈选，如何对指标管理进行相关操作
 
