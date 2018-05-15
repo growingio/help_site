@@ -18,8 +18,8 @@ GrowingIO可以使用自定义变量来提高数据定义的灵活性，如:
 
 * 自定义事件
 * 事件级变量
-* [页面级变量](shu-ju-shi-shi/zi-ding-yi-shi-jian-ji-bian-liang/zi-ding-yi-bian-liang/ge-lei-xing-zi-ding-yi-bian-liang-jie-shao/ye-mian-ji-bian-liang.md)
-* [转化变量](shu-ju-shi-shi/zi-ding-yi-shi-jian-ji-bian-liang/zi-ding-yi-bian-liang/ge-lei-xing-zi-ding-yi-bian-liang-jie-shao/zhuan-hua-bian-liang.md) 
+* [页面级变量](shu-ju-shi-shi/shi-jian-ji-bian-liang/zi-ding-yi-bian-liang/ge-lei-xing-zi-ding-yi-bian-liang-jie-shao/ye-mian-ji-bian-liang.md)
+* [转化变量](shu-ju-shi-shi/shi-jian-ji-bian-liang/zi-ding-yi-bian-liang/ge-lei-xing-zi-ding-yi-bian-liang-jie-shao/zhuan-hua-bian-liang.md) 
 
 GrowingIO提供丰富的数据展现和分析工具，帮助您更好地了解用户行为，发掘业务洞察，如:
 

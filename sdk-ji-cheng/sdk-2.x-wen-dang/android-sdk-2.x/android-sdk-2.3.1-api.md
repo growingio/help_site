@@ -71,13 +71,19 @@ gio.track("registerSuccess");
 ```text
 // track API调用示例二
 GrowingIO gio = GrowingIO.getInstance();
-gio.track("registerSuccess", {"gender":"male", "age":"21"});
+JSONObject jsonObject = new JSONObject();
+jsonObject.put("gender", "male");
+jsonObject.put("age", "21");
+gio.track("registerSuccess", jsonObject);
 ```
 
 ```text
 // track API调用示例三
 GrowingIO gio = GrowingIO.getInstance();
-gio.track("loanAmount", 800000, {"loanType":"houseMortgage","province":"Zhejiang"});
+JSONObject jsonObject = new JSONObject();
+jsonObject.put("gender", "male");
+jsonObject.put("age", "21");
+gio.track("loanAmount", 80000, jsonObject);
 ```
 
 ### setPageVariable
@@ -107,15 +113,12 @@ gio.setPageVariable(Fragment fragment, JSONObject pageLevelVariables);
 ```
 
 ```text
-// page.set API调用示例一
+// page.set API调用示例
 GrowingIO gio = GrowingIO.getInstance();
-gio.setPageVariable(myActivity, "author", "Zhang San");
-```
-
-```text
-// page.set API调用示例二
-GrowingIO gio = GrowingIO.getInstance();
-gio.setPageVariable(myActivity, {"pageName": "Home Page", "author": "Zhang San"});
+JSONObject jsonObject = new JSONObject();
+jsonObject.put("gender", "male");
+jsonObject.put("age", "21");
+gio.setPageVariable(myActivity, jsonObject);
 ```
 
 ### setEvar
@@ -148,7 +151,10 @@ gio.setEvar("campaignId", "1234567890");
 ```text
 // setEvar API调用示例二
 GrowingIO gio = GrowingIO.getInstance();
-gio.setEvar({"campaignId":"1234567890", "campaignOwner":"Li Si"}});
+JSONObject jsonObject = new JSONObject();
+jsonObject.put("campaignId", "1234567890");
+jsonObject.put("campaignOwner", "Li Si");
+gio.setEvar(jsonObject);
 ```
 
 ### setPeopleVariable
@@ -181,7 +187,9 @@ gio.setPeopleVariable("gender", "male");
 ```text
 // people.set API调用示例二
 GrowingIO gio = GrowingIO.getInstance();
-gio.setPeopleVariable({"gender":"male", "age":"25"});
+jsonObject.put("gender", "male");
+jsonObject.put("age", "21");
+gio.setPeopleVariable(jsonObject);
 ```
 
 ### setUserId

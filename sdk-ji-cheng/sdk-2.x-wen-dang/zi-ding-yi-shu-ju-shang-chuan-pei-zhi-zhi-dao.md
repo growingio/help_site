@@ -11,9 +11,9 @@
 如您所知，您的APP或网页在集成了 GrowingIO 的 SDK 之后，它将会自动地为您采集一系列用户行为数据，并在 GrowingIO 分析后台供您制成数据分析报表。除上述的用户行为数据（或称为无埋点数据）之外，GrowingIO 还提供了多种 API 接口，供您上传一些自定义的数据指标及维度，他们包括：
 
 * 自定义事件 + 事件级变量
-* [页面级变量](../../shu-ju-shi-shi/zi-ding-yi-shi-jian-ji-bian-liang/zi-ding-yi-bian-liang/ge-lei-xing-zi-ding-yi-bian-liang-jie-shao/ye-mian-ji-bian-liang.md)
-* [转化变量](../../shu-ju-shi-shi/zi-ding-yi-shi-jian-ji-bian-liang/zi-ding-yi-bian-liang/ge-lei-xing-zi-ding-yi-bian-liang-jie-shao/zhuan-hua-bian-liang.md)
-* [用户变量](../../shu-ju-shi-shi/zi-ding-yi-shi-jian-ji-bian-liang/zi-ding-yi-bian-liang/ge-lei-xing-zi-ding-yi-bian-liang-jie-shao/yong-hu-bian-liang.md)
+* [页面级变量](../../shu-ju-shi-shi/shi-jian-ji-bian-liang/zi-ding-yi-bian-liang/ge-lei-xing-zi-ding-yi-bian-liang-jie-shao/ye-mian-ji-bian-liang.md)
+* [转化变量](../../shu-ju-shi-shi/shi-jian-ji-bian-liang/zi-ding-yi-bian-liang/ge-lei-xing-zi-ding-yi-bian-liang-jie-shao/zhuan-hua-bian-liang.md)
+* [用户变量](../../shu-ju-shi-shi/shi-jian-ji-bian-liang/zi-ding-yi-bian-liang/ge-lei-xing-zi-ding-yi-bian-liang-jie-shao/yong-hu-bian-liang.md)
 
 上述的 “自定义事件” 在GrowingIO分析后台体现为一个 “指标”，而 ”事件级变量“、”页面级变量“、”转化变量“ 和 ”用户变量“ 均为 ”维度“。
 
@@ -119,8 +119,8 @@
 * 变量名称 ==&gt; GrowingIO 后台维度名称
 * 变量描述 ==&gt; 可选，仅作备注使用
 * 变量标识符 ==&gt; 此变量在代码中的标识，可以为英文、下划线和数字，大小写敏感
-* 归因方式 ==&gt; 转化归因的算法，可为最初、最近或线性（具体解释请参考[转化变量](../../shu-ju-shi-shi/zi-ding-yi-shi-jian-ji-bian-liang/zi-ding-yi-bian-liang/ge-lei-xing-zi-ding-yi-bian-liang-jie-shao/zhuan-hua-bian-liang.md#gui-yin-fang-shi)介绍）；归因方式选定后，不建议修改，因为修改归因方式会导致修改前的所有数据失效
-* 失效 ==&gt; 转化变量的失效时间（具体解释请参考[转化变量](../../shu-ju-shi-shi/zi-ding-yi-shi-jian-ji-bian-liang/zi-ding-yi-bian-liang/ge-lei-xing-zi-ding-yi-bian-liang-jie-shao/zhuan-hua-bian-liang.md#shi-xiao-shi-jian)介绍）
+* 归因方式 ==&gt; 转化归因的算法，可为最初、最近或线性（具体解释请参考[转化变量](../../shu-ju-shi-shi/shi-jian-ji-bian-liang/zi-ding-yi-bian-liang/ge-lei-xing-zi-ding-yi-bian-liang-jie-shao/zhuan-hua-bian-liang.md#gui-yin-fang-shi)介绍）；归因方式选定后，不建议修改，因为修改归因方式会导致修改前的所有数据失效
+* 失效 ==&gt; 转化变量的失效时间（具体解释请参考[转化变量](../../shu-ju-shi-shi/shi-jian-ji-bian-liang/zi-ding-yi-bian-liang/ge-lei-xing-zi-ding-yi-bian-liang-jie-shao/zhuan-hua-bian-liang.md#shi-xiao-shi-jian)介绍）
 
 ![](../../.gitbook/assets/7%20%281%29.png)
 
@@ -137,7 +137,7 @@
 * 变量名称 ==&gt; GrowingIO 后台维度名称
 * 变量描述 ==&gt; 可选，仅作备注使用
 * 变量标识符 ==&gt; 此变量在代码中的标识，可以为英文、下划线和数字，大小写敏感
-* 归因方式 ==&gt; 用户变量归因的算法（具体解释请参考[用户变量](../../shu-ju-shi-shi/zi-ding-yi-shi-jian-ji-bian-liang/zi-ding-yi-bian-liang/ge-lei-xing-zi-ding-yi-bian-liang-jie-shao/yong-hu-bian-liang.md#gui-yin-mo-xing)介绍）
+* 归因方式 ==&gt; 用户变量归因的算法（具体解释请参考[用户变量](../../shu-ju-shi-shi/shi-jian-ji-bian-liang/zi-ding-yi-bian-liang/ge-lei-xing-zi-ding-yi-bian-liang-jie-shao/yong-hu-bian-liang.md#gui-yin-mo-xing)介绍）
 
 ![](../../.gitbook/assets/9%20%281%29.png)
 
