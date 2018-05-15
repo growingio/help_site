@@ -4,9 +4,9 @@
 
 通过以下分析工具创建的：
 
-* [事件分析](../fen-xi/shi-jian-fen-xi.md)
-* [漏斗分析](../fen-xi/lou-dou-fen-xi.md)
-* [留存分析](../fen-xi/liu-cun-fen-xi.md)
+* [事件分析](../analytics-tools/event-analysis.md)
+* [漏斗分析](../analytics-tools/funnel-analysis.md)
+* [留存分析](../analytics-tools/cohort-analysis.md)
 
 图表都可以在**"单图"**中管理。您可以在网格视图和列表视图中切换以满足不同的管理需求。
 

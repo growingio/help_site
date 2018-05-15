@@ -5,10 +5,10 @@
 您可以将最常用的看板添加到**"首页"**以便更直接地访问为了帮助您更好地使用；  
 此外，我们将常见的业务场景总结成了**"业务场景"**供您参考。
 
-* [首页](shou-ye.md)
+* [首页](homepage.md)
   * [概览](https://www.gitbook.com/book/liu-huaqing/gio_3_/Features/overview.md)
   * [实时](https://www.gitbook.com/book/liu-huaqing/gio_3_/Features/realtime.md)
 * [看板](https://www.gitbook.com/book/liu-huaqing/gio_3_/看板.md)
-* [业务场景](ye-wu-chang-jing.md)
-* [单图](dan-tu.md)
+* [业务场景](scenarios.md)
+* [单图](charts.md)
 

@@ -90,7 +90,7 @@
 
 6.部分浏览器（特别是移动端浏览器）会把搜索跳转当成直接访问；
 
-所以如果要准确追踪投放渠道的情况，建议设置 utm 参数。[查看 utm 设置方法](../../guang-gao-jian-ce/xue-xi-zi-liao/utm-can-shu-shi-yong-zhi-nan.md)
+所以如果要准确追踪投放渠道的情况，建议设置 utm 参数。[查看 utm 设置方法](../../ad-tracking/tutorial/utm-parameters.md)
 
 **搜索引擎：** 来自以下地址的均属于搜索引擎：www.baidu.com，m.baidu.com，bzclk.baidu.com， so.com, sogou.com（soso.com已指向这里）, bing.com, youdao.com，zhongsou.com，google.xx.xx（Google在全世界有各种各样的域名），sm.cn（神马搜索\),yahoo.com。
 
@@ -129,7 +129,7 @@
 | utm\_content | 指广告的具体内容 |
 | utm\_campaign | 指投放广告的这次营销活动的名称 |
 
-具体设置方法请参见：[5.1.渠道跟踪](../../guang-gao-jian-ce/xue-xi-zi-liao/utm-can-shu-shi-yong-zhi-nan.md)
+具体设置方法请参见：[5.1.渠道跟踪](../../ad-tracking/tutorial/utm-parameters.md)
 
 **技术说明／备注**：UTM 广告系列参数对着陆页面的url进行标注，可以区别衡量各种营销渠道所带来的访客价值。在这里渠道归因采取的是非直接访问最后点击模型。 比如，访客于9:30分访问网站。我们进行渠道归因时，会统计在10:00点开始，回溯30天时间，其最后一次通过外站（非直接流量）进来时的UTM参数，关键词和refer URL。举个例子，访客A通过百度推广进入网站，然后通过sina Banner再次进入网站，最后一次通过直接输入URL进入网站完成购买，我们会认为这次转化由Sina Banner贡献。
 

@@ -7,6 +7,6 @@
 
 GrowingIO提供了丰富的数据定义方式，您可以对您的网页、iOS App、Android App进行圈选。整个圈选操作过程非常简单，您只需要点击相应的元素，并且点击保存就可以了。
 
-* [Web圈选](web-quan-xuan.md)
-* [移动端圈选](yi-dong-duan-quan-xuan.md)
+* [Web圈选](web-circle.md)
+* [移动端圈选](mobile-circle.md)
 
