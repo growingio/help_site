@@ -38,5 +38,5 @@ GrowingIO.setPageVariable\(Activity activity, ”channel”, “新闻”\);
 
 * iOS代码
 
-\[Growing setPageVariableWithKey:@"channel" andStringValue:@"新闻" \];
+\[Growing setPageVariableWithKey:@"channel" andStringValue:@"新闻" toViewController:myViewController\];
 
