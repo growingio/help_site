@@ -6,13 +6,13 @@ GrowingIO 是基于用户行为的新一代数据分析产品，吸取了国内�
 
 * [预定义指标](implementation/data-model/predefined-metrics.md)
 * [预定义维度](implementation/data-model/predefined-dimension.md)
-* [名词解释](chang-jian-wen-ti/ming-ci-jie-shi.md)   
+* [名词解释](faq/ming-ci-jie-shi.md)   
 
 GrowingIO支持丰富的用户平台数据采集，如:
 
-* [iOS](sdk-ji-cheng/sdk-1.x-wen-dang/sdk-1.x-jie-ru-zhi-nan/sdk-jie-ru-zhi-nan-ios.md)
-* [Android](sdk-ji-cheng/sdk-1.x-wen-dang/sdk-1.x-jie-ru-zhi-nan/sdk-jie-ru-zhi-nan-android/)
-* [Web](sdk-ji-cheng/sdk-1.x-wen-dang/sdk-1.x-jie-ru-zhi-nan/sdk-jie-ru-zhi-nan-js.md)    
+* [iOS](sdk-integration/sdk-1.x-docs/sdk-1.x-manual/ios.md)
+* [Android](sdk-integration/sdk-1.x-docs/sdk-1.x-manual/android/)
+* [Web](sdk-integration/sdk-1.x-docs/sdk-1.x-manual/js.md)    
 
 GrowingIO可以使用自定义变量来提高数据定义的灵活性，如:
 
@@ -33,14 +33,14 @@ GrowingIO提供丰富的数据展现和分析工具，帮助您更好地了解�
 * [用户细查](analytics-tools/individual-user-report.md)
 * [用户分群](analytics-tools/user-segmentation.md)  
 
-通过分析工具创建的「事件分析」、「漏斗分析」和「留存分析」图表都可以在**"单图" **中管理； 多个分析图表可以有效组合成业务**"看板"** 进行监控分析，及时获知业务异常，快速响应； 您可以将最常用的看板添加到**"首页"** 以便更直接地访问为了帮助您更好地使用； 此外，我们将常见的业务场景总结成了**"业务模板"** 供您参考；
+通过分析工具创建的「事件分析」、「漏斗分析」和「留存分析」图表都可以在**"单图"** 中管理； 多个分析图表可以有效组合成业务**"看板"** 进行监控分析，及时获知业务异常，快速响应； 您可以将最常用的看板添加到**"首页"** 以便更直接地访问为了帮助您更好地使用； 此外，我们将常见的业务场景总结成了**"业务模板"** 供您参考；
 
-* [首页](tracking-visualization/homepage.md)
-  * [概览](tracking-visualization/overview.md)
-  * [实时](tracking-visualization/realtime.md)
-* [看板](tracking-visualization/dashboard.md)
-* [业务场景](tracking-visualization/scenarios.md)
-* [单图](tracking-visualization/charts.md)    
+* [首页](visualization/homepage.md)
+  * [概览](visualization/overview.md)
+  * [实时](visualization/realtime.md)
+* [看板](visualization/dashboard.md)
+* [业务场景](visualization/scenarios.md)
+* [单图](visualization/charts.md)    
 
 GrowingIO 还可以帮助您推广网站/App并衡量推广效果，监测不同渠道质量，并提供渠道反作弊等多重强大能力：
 
@@ -55,7 +55,7 @@ GrowingIO 还可以帮助您推广网站/App并衡量推广效果，监测不同
 
 若在使用GrowingIO时遇到问题，可点击查看：
 
-* [常见问题](chang-jian-wen-ti/)
+* [常见问题](faq/)
 
 GrowingIO产品使用手册：
 
