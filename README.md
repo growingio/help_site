@@ -6,7 +6,7 @@ GrowingIO 是基于用户行为的新一代数据分析产品，吸取了国内�
 
 * [预定义指标](implementation/data-model/predefined-metrics.md)
 * [预定义维度](implementation/data-model/predefined-dimension.md)
-* [名词解释](faq/ming-ci-jie-shi.md)   
+* [名词解释](faq/definitions.md)   
 
 GrowingIO支持丰富的用户平台数据采集，如:
 
@@ -50,8 +50,8 @@ GrowingIO 还可以帮助您推广网站/App并衡量推广效果，监测不同
 
 此外我们还提供了完整的产品更新日志，若想了解产品的迭代历程，可以点击进行查看：
 
-* [产品更新日志](chan-pin-geng-xin-ri-zhi.md)  
-* [API更新日志](api-geng-xin-ri-zhi.md)    
+* [产品更新日志](product-change-log.md)  
+* [API更新日志](api-change-log.md)    
 
 若在使用GrowingIO时遇到问题，可点击查看：
 
