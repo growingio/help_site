@@ -36,7 +36,7 @@
     * [网站页面级维度增强](implementation/data-model/page-dimension-enhancement/README.md)
       * [指标概念迁移](implementation/data-model/page-dimension-enhancement/metrics-transfer.md)
     * [预定义指标](implementation/data-model/predefined-metrics.md)
-    * [预定义维度](implementation/data-model/predefined-dimension.md)
+    * [预定义维度](implementation/data-model/predefined-dimensions.md)
   * [圈选](implementation/circle/README.md)
     * [Web圈选](implementation/circle/web.md)
     * [移动端圈选](implementation/circle/mobile.md)

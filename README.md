@@ -5,7 +5,7 @@ GrowingIO 是基于用户行为的新一代数据分析产品，吸取了国内�
 你可以点击以下链接快速了解GrowingIO的基础数据模型以及相关的名词解释
 
 * [预定义指标](implementation/data-model/predefined-metrics.md)
-* [预定义维度](implementation/data-model/predefined-dimension.md)
+* [预定义维度](implementation/data-model/predefined-dimensions.md)
 * [名词解释](faq/definitions.md)   
 
 GrowingIO支持丰富的用户平台数据采集，如:
