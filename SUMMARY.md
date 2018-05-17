@@ -30,7 +30,7 @@
     * [自定义数据上传&配置指导](sdk-integration/sdk-2.x-docs/custom-data-implement-guide.md)
   * [GrowingIO Web Debugger](sdk-integration/web-debugger/README.md)
     * [GrowingIO Web Debugger 安装](sdk-integration/web-debugger/web-debugger-install.md)
-  * [GrowingIO Mobile Debugger](sdk-integration/mobiledebugger.md)
+  * [GrowingIO Mobile Debugger](sdk-integration/mobile-debugger.md)
   * [移动端SDK数据发送策略](sdk-integration/data-sending-strategy.md)
 * [数据实施](implementation/README.md)
   * [数据模型](implementation/data-model/README.md)

@@ -20,12 +20,6 @@ buildscript {
         classpath 'com.growingio.android:vds-gradle-plugin:2.3.1'
     }
 }
-
-allprojects {
-    repositories {
-        jcenter()
-    }
-}
 ```
 
 ### \(2\)在module级别的build.gradle文件中添加`com.growingio.android`插件、`vds-android-agent`依赖和对应的资源；
