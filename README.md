@@ -11,7 +11,7 @@ GrowingIO 是基于用户行为的新一代数据分析产品，吸取了国内�
 GrowingIO支持丰富的用户平台数据采集，如:
 
 * [iOS](sdk-integration/sdk-1.x-docs/sdk-1.x-manual/ios.md)
-* [Android](sdk-integration/sdk-1.x-docs/sdk-1.x-manual/android/)
+* [Android](sdk-integration/sdk-1.x-docs/sdk-1.x-manual/android/README.md)
 * [Web](sdk-integration/sdk-1.x-docs/sdk-1.x-manual/js.md)    
 
 GrowingIO可以使用自定义变量来提高数据定义的灵活性，如:
@@ -26,7 +26,7 @@ GrowingIO提供丰富的数据展现和分析工具，帮助您更好地了解�
 * [事件分析](analytics-tools/event-analysis.md)
 * [漏斗分析](analytics-tools/funnel-analysis.md)
 * [留存分析](analytics-tools/cohort-analysis.md)
-* [热图](analytics-tools/heatmap/)
+* [热图](analytics-tools/heatmap/README.md)
 * [留存魔法师](analytics-tools/magic-cohort.md)
 * [用户活跃分析](analytics-tools/user-active-analysis.md)
 * [智能路径](analytics-tools/smart-flow-analysis.md)
@@ -44,9 +44,9 @@ GrowingIO提供丰富的数据展现和分析工具，帮助您更好地了解�
 
 GrowingIO 还可以帮助您推广网站/App并衡量推广效果，监测不同渠道质量，并提供渠道反作弊等多重强大能力：
 
-* [广告监测](ad-tracking/)
-* [推广网站](ad-tracking/web-marketing/)
-* [推广App](ad-tracking/app-marketing/)   
+* [广告监测](ad-tracking/README.md)
+* [推广网站](ad-tracking/web-marketing/README.md)
+* [推广App](ad-tracking/app-marketing/README.md)   
 
 此外我们还提供了完整的产品更新日志，若想了解产品的迭代历程，可以点击进行查看：
 
@@ -55,7 +55,7 @@ GrowingIO 还可以帮助您推广网站/App并衡量推广效果，监测不同
 
 若在使用GrowingIO时遇到问题，可点击查看：
 
-* [常见问题](faq/)
+* [常见问题](faq/README.md)
 
 GrowingIO产品使用手册：
 
