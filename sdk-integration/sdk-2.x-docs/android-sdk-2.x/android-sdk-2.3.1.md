@@ -157,6 +157,12 @@ public class MyApplication extends Application {
 }
 ```
 
+如果您使用了AndResGuard,请在白名单里添加GrowingIO,如下：
+
+```text
+R.string.growingio*
+```
+
 ## 5.重要配置选项
 
 ### \(1\) 采集H5页面数据

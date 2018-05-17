@@ -142,7 +142,7 @@ public class MyApp extends Application {
 }
 ```
 
-1. 如果您使用了AndResGuard,请在白名单里添加GrowingIO,如下：
+如果您使用了AndResGuard,请在白名单里添加GrowingIO,如下：
 
 ```text
 R.string.growingio*
