@@ -43,5 +43,5 @@ evar：“转化变量” 数据
 
 ppl：“用户变量” 数据
 
-由于imp数据量级过大，且价值密度较低，比较影响Mobile Debugger工具性能，在此处不展现。
+imp（元素浏览数据）数据量级过大，影响Mobile Debugger性能，Mobile Debugger不展示这部分数据。
 
