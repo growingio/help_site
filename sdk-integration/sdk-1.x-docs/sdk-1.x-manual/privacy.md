@@ -46,4 +46,57 @@ GrowingIO目前主要通过两种方式打开SDK的圈选界面。
 #### 移动端SDK采集的数据类型
 
 与「JS SDK」一样，移动端SDK主要采集三类数据：访问数据，内容数据，行为数据。并且，不采应用文本框里的数据，也就不会主动记录普通用户填写的账户/电话/银行卡等隐私信息，在采集环节保证安全。
+## 2.GrowingIO SDK支持GDPR 
+### 概述
+作为一家专注于用户行为数据分析的大数据公司，GrowingIO始终注重用户隐私数据的保护，在本次发布的版本中，GrowingIO SDK（Android、iOS、JS）针对欧盟区的一般数据保护法(GDPR)提供了以下的API供开发者调用。
+
+GrowingIO SDK提供默认是否开启数据采集的配置项
+GrowingIO SDK提供关闭或开启全局数据采集的接口，开发者可在APP中任何场景时调用该接口
+GrowingIO SDK提供获取该设备的设备ID接口，开发者可配合数据侧提供的接口删除或导出该设备的行为数据
+### 接口
+接口名称 | Android|iOS| JS
+---|---|---|---
+全局配置项 | .disableDataCollect()|  |  
+关闭或开启全局数据采集 | // 不采集数据<br>GrowingIO.getInstance().disableDataCollect();<br>// 收集数据<br>GrowingIO.getInstance().enableDataCollect()| disableDataCollect <br><br><br>enableDataCollect | // 开启gdpr，停止数据采集<br>window.gio('config',{"dataCollect":"false"});<br>// 关闭gdpr，开始数据采集<br>window.gio('config',{"dataCollect":"true"});<br>放在send之前
+获取访问用户ID | GrowingIO.getInstance().getVisitUserId();|getVisitUserId |  window.gio('getVisitUserId');<br>放在send之后
+#### Andorid 样例
+
+```
+GrowingIO.startWithConfiguration(this, new Configuration()
+        .disableDataCollect()        // 开启GDPR， 不采集数据。 默认采集
+        .useID()
+        .trackAllFragments());
+//  不采集数据
+GrowingIO.getInstance().disableDataCollect();
+// 收集数据
+GrowingIO.getInstance().enableDataCollect();
+// 获取设备Id
+GrowingIO.getInstance().getVisitUserId();
+```
+#### iOS 样例
+```
+// 开启GDPR
+[Growing disableDataCollect];
+ 
+// 关闭GDPR
+[Growing enableDataCollect];
+ 
+// 获取设备ID
+NSString *viId = [Growing getVisitUserId];
+```
+#### JS 样例
+```
+// 开启gdpr，停止数据采集
+ 
+window.gio('config',{"dataCollect":"false"});
+ 
+// 关闭gdpr，开始数据采集
+window.gio('config',{"dataCollect":"true"});
+ 
+获取访问用户ID
+window.gio('getVisitUserId')   放在send之后
+```
+
+
+
 
