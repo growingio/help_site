@@ -8,6 +8,7 @@
 * [iOS SDK 2.x](sdk-2.x-docs/ios-sdk-2.x/)
 * [GrowingIO Web Debugger](web-debugger/)
 * [移动端SDK数据发送策略](data-sending-strategy.md)
+* [安全性说明](privacy.md)
 
 **若有疑问？请参考**[**常见问题－SDK集成**](https://docs.growingio.com/FAQ/sdk.html)
 
