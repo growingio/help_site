@@ -1,3 +1,5 @@
+# 删除用户 API
+
 1. 调用DeleteVisitor API之前先准备好哪些访问用户ID的数据需要删除
 2. 基于准备好需要删除的访问用户ID，调用DeleteVisitor API 
     - **服务器请求接口**

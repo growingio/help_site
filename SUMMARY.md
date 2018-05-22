@@ -96,6 +96,7 @@
   * [原始数据导出 1.0 API（deprecated）](api/raw-data-export-1.0.md)
   * [原始数据导出 2.0 API](api/raw-data-export-2.0.md)
   * [原始数据导出 服务端SDK](api/raw-data-export-code-example.md)
+  * [删除用户 API](api/DeleteVisitorAPI.md)
 * [常见问题](faq/README.md)
   * [基本问题](faq/overview.md)
   * [圈选指标](faq/circle-metrics.md)
