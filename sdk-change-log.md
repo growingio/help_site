@@ -1,5 +1,25 @@
 # SDK更新日志
 
+## 2018年5月21日 版本号：V18.8.1 {#更新时间-2018年5月22日-版本号：v1881}
+Android 2.3.2
+
+1. 支持Deeplink直达落地页
+1. 支持GDPR欧盟区一般数据保护条例
+1. 支持WebView的 loadData 和 loadDataWithBaseURL 方法，修复loadUrl 混淆死循环问题
+1. 兼容DSBridge
+1. 使用 setAPPVariable 兼容 1.x 版本的 setCS2 ~ setCS10 方法，并支持多进程数据同步
+1. 修复因动态权限请求导致丢失vst 事件的问题
+1. 修复MobileDebugger中vst事件重发的问题
+1. 埋点接口track取消对 p 和 ptm 的依赖，未拿到相应的值也能正常发送cstm事件
+1. 优化Dialog等相关组件的hook show 方法，解决死循环问题
+1. 优化热图对于控件相同 id 匹配的问题，修复热图点击次数不一致却显示一致的问题
+1. 支持有赞新版本的webview
+
+iOS 2.3.2
+
+1. 支持Deeplink直达落地页
+1. 支持GDPR欧盟区一般数据保护条例
+
 ## 2018年4月24日 版本号：V18.6.1 {#更新时间-2018年3月21日-版本号：v1840}
 
 Weex 0.1
