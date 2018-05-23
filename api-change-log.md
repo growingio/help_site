@@ -4,11 +4,7 @@
 
 ### 更新时间 2018年5月22日 版本号：V18.8.1
 #### **新功能：**
-1. 新增[用户删除接口](https://docs.growingio.com/api/DeleteVisitorAPI.html)，满足GDPR的要求。
-
-### 更新时间 2018年4月8日 版本号：V18.5.0
-#### **新功能：**
-1. 新增[用户删除接口](https://docs.growingio.com/api/DeleteVisitorAPI.html)，满足GDPR的要求。
+1. 新增[用户删除接口](api/DeleteVisitorAPI.md)，满足GDPR的要求。
 
 ### 更新时间 2018年4月8日 版本号：V18.5.0
 
