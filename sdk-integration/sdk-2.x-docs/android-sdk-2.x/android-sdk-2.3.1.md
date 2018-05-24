@@ -1,6 +1,4 @@
-# Android SDK 2.3.1 安装
-
-Android SDK 2.3.1安装
+# Android SDK 安装
 
 ## 1.导入SDK
 
@@ -17,7 +15,7 @@ buildscript {
     dependencies {
         //gradle建议版本
         classpath 'com.android.tools.build:gradle:3.0.1'
-        classpath 'com.growingio.android:vds-gradle-plugin:2.3.1'
+        classpath 'com.growingio.android:vds-gradle-plugin:2.3.2'
     }
 }
 ```
@@ -43,7 +41,7 @@ android {
     }
 }
 dependencies {
-        compile 'com.growingio.android:vds-android-agent:2.3.1@aar'
+        compile 'com.growingio.android:vds-android-agent:2.3.2@aar'
 }
 ```
 
