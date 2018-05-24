@@ -1,4 +1,4 @@
-# iOS SDK 2.3.1 安装
+# iOS SDK 安装
 
 如果您的 iOS 项目中集成了 Firebase SDK，请确保使用的 Firebase SDK 版本在 4.8.1 及以上，并且集成 GrowingIO SDK 2.1.1 及以上版本，否则会造成数据采集不到的情况。
 
@@ -10,13 +10,13 @@ GrowingIO 支持两种 iOS SDK 安装方式：
 
 一. 使用 CocoaPods 管理依赖
 
-1. 添加`pod 'GrowingIO', '~>2.3.1'`到 Podfile 中
+1. 添加`pod 'GrowingIO', '~>2.3.2'`到 Podfile 中
 2. 执行`pod update`，不要用`--no-repo-update`选项
 3. 直接进入安装文档的第四步
 
 二. 手动安装依赖
 
-1. 下载 [2.3.1](http://assets.growingio.com/sdk/GrowingIO-iOS-SDK-2.3.1.zip) 版 iOS SDK
+1. 下载 [2.3.2](http://assets.growingio.com/sdk/GrowingIO-iOS-SDK-2.3.2.zip) 版 iOS SDK
 2. 进行安装文档的第二步
 
 ## 2. 导入 SDK
@@ -230,5 +230,5 @@ view3.growingAttributesValue = @“ad3”;
 
 至此，您的SDK安装就成功了。登录 GrowingIO 进入产品安装页面执行“数据检测”，几分钟后就可以看到数据了。
 
- **其他设置（如设置“登录用户ID”）请前往** [**iOS SDK 2.3.1 API中查看**](ios-sdk-2.3.1-api.md)**。**
+ **其他设置（如设置“登录用户ID”）请前往** [**iOS SDK API中查看**](ios-sdk-2.3.1-api.md)**。**
 

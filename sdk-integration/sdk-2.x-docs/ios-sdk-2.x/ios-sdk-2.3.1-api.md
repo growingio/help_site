@@ -1,4 +1,4 @@
-# iOS SDK 2.3.1 API
+# iOS SDK API
 
 ## API简介
 

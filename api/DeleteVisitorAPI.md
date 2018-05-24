@@ -17,7 +17,7 @@
     - **{auth_token}由如下三个参数计算生成**
       1. projectId: 由GrowingIO分配给您的项目ID
       2. secretKey：由GrowingIO分配给您的私钥
-      3. keyArray：对于一次上传多条记录时，取多条数据中的每个对象的主键的值
+      3. keyArray：取visitUserId数组中的值，并用逗号进行拼接。如：abcdef,bcdefg
     - **计算公式**
       1. 以secretKey为key
       2. 使用SHA256算法计算字符串"projectId=${projectId}&visitUserId=${keyArray}"的hash值
