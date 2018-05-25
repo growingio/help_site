@@ -5,7 +5,7 @@
 * [事件分析](event-analysis.md)
 * [漏斗分析](funnel-analysis.md)
 * [留存分析](cohort-analysis.md)
-* [热图](heatmap/)
+* [热图](heatmap/README.md)
 * [留存魔法师](magic-cohort.md)
 * [用户活跃分析](user-active-analysis.md)
 * [智能路径](smart-flow-analysis.md)

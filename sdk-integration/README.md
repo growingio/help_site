@@ -5,7 +5,7 @@
 * [SDK 1.x 接入指南](sdk-1.x-docs/sdk-1.x-manual/)
 * [Web JS SDK 2.x ](sdk-2.x-docs/web-js-sdk-2.x/)
 * [Android SDK 2.x](sdk-2.x-docs/android-sdk-2.x/)
-* [iOS SDK 2.x](sdk-2.x-docs/ios-sdk-2.x/)
+* [iOS SDK 2.x](sdk-2.x-docs/ios-sdk-2.x/README.md)
 * [GrowingIO Web Debugger](web-debugger/)
 * [移动端SDK数据发送策略](data-sending-strategy.md)
 * [安全性说明](privacy.md)

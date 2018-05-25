@@ -9,6 +9,6 @@ GrowingIO支持Web，Mobile App等多个用户平台，这给GrowingIO的数据�
 
 以及如何进行圈选，如何对指标管理进行相关操作
 
-* [圈选](circle/)
+* [圈选](circle/README.md)
 * [指标管理](circle-metrics-management.md)
 
