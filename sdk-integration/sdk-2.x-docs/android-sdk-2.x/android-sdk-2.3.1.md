@@ -226,4 +226,22 @@ GrowingIO.getInstance().trackEditText(EditText);
 ```text
     GrowingIO.startWithConfiguration(this, new Configuration().setHashTagEnable(true)）
 ```
+### \(6\) 多进程支持
+
+
+SDK默认不支持多进程使用， 但是可以通过confiuration 进行设置支持多进程。 设置方法为， 在需要使用SDK功能的进程的Application onCreate中初始化SDK： 
+
+    GrowingIO.startWithConfiguration(this, new Configuration()
+                      .supportMultiProcessCircle(true)
+                      .setMutiprocess(true)));
+
+其中supportMultiProcessCircle 与 setMutiprocess要同时使用， 而且多个进程中设置的值要相同。 
+
+#### 为什么不默认支持多进程？
+
+跨进程通信是一个相对较慢的过程， 默认不开启， 可以满足大部分用户的要求。 
+#### 哪些进程需要初始化SDK？
+
+需要使用SDK功能的进程需要初始化SDK， 所有的UI进程 + 部分Service进程(如果这些进程中涉及手动打点)。
+
 
