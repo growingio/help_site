@@ -12,7 +12,9 @@
 
 ## 名词及概念解释
 GIO广告监测链接信息架构
-![](../.gitbook/assets/ads_tracking_api_1.png)
+
+![PNG](../.gitbook/assets/ads_tracking_api_1.png)
+
 因此，GIO中生成一条监测链接至少需要涵盖以下信息：
 AI：项目ID，可在项目管理的项目概览里获得这串ID，也是集成 SDK 时 setAccountId 所用的部分。
 应用：应用ID。推广应用在GIO后台的分配的唯一应用ID。
