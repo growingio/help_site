@@ -21,4 +21,4 @@ def deploy():
 #如何发布pdf
 #https://calibre-ebook.com/download 下载安装calibre
 #ln -s /Applications/calibre.app/Contents/MacOS/ebook-convert /usr/local/bin
-#gitbook pdf . GrowingIO帮助文档.pdf
+#gitbook pdf . GrowingIO帮助文档.pdf  
