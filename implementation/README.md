@@ -6,7 +6,7 @@ GrowingIO支持Web，Mobile App等多个用户平台，这给GrowingIO的数据�
 
 * [预定义指标](data-model/predefined-metrics.md)
 * [预定义维度](data-model/predefined-dimensions.md)
-* [超出维度值上限](data-model/High-Cardinality.md)
+* [超出维度行数上限](data-model/high-cardinality.md)
 
 以及如何进行圈选，如何对指标管理进行相关操作
 
