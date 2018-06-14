@@ -59,3 +59,10 @@
 
    ![](../../.gitbook/assets/inmobi2.png)
 
+## 微博超级粉丝通
+
+1.在GIO后台生成一条目标渠道为“超级粉丝通”的监测链接。
+2.将监测链接填写到微博超级粉丝通后台
+   ![](../../.gitbook/assets/超级粉丝通1.png)
+3.将微博超级粉丝通后台生成的“company” 字段复制到GrowingIO后台
+   ![](../../.gitbook/assets/超级粉丝通3.png)
