@@ -263,7 +263,7 @@ Status Code: 200 OK
 |campaignIdIos|	String|iOS 活动 id |gnPNkoWA|
 |campaignIdAndroid|	String|	Android 活动 id |La9BwRne|
 |campaignNameIos| String|iOS 应用所属推广活动名称|Growingio 测试|
-|campaignIdAndroid|String|Android 应用所属推广活动名称|Growingio 测试|
+|campaignNameAndroid|String|Android 应用所属推广活动名称|Growingio 测试|
 |downloadUrlIos|String|ios下载链接|http://www.download.com|
 |downloadUrlAndroid|String|Android下载链接|http://www.download.com|
 |iosParams|String|iOS 唤醒参数|{"uri":"key1:value1&key2:value2"}|
