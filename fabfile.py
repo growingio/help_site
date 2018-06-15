@@ -7,6 +7,7 @@ env.hosts = "apps@cnprd3"
 @task
 def deploy():
     local("gitbook install")
+    local("gitbook init")
     local("gitbook build")
     run('[ -d "/tmp/_book" ] && rm -rf /tmp/_book/* || mkdir -p /tmp/_book')
     put("_book/", "/tmp")
