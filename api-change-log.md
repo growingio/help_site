@@ -2,6 +2,11 @@
 
 ## ChangeLog
 
+### 更新时间 2018年6月19日 版本号：V18.11.1
+#### **新功能：**
+1. 新增  collectWebViewUserAgent 接口，用户可以选择是否采集用户 UserAgent。
+2. Configuration 删除 collectMacAddress接口。
+
 ### 更新时间 2018年5月22日 版本号：V18.8.1
 #### **新功能：**
 1. 新增[用户删除接口](api/DeleteVisitorAPI.md)，满足GDPR的要求。
