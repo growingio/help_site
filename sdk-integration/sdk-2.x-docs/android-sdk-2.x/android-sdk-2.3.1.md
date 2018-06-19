@@ -15,7 +15,7 @@ buildscript {
     dependencies {
         //gradle建议版本
         classpath 'com.android.tools.build:gradle:3.0.1'
-        classpath 'com.growingio.android:vds-gradle-plugin:2.3.2'
+        classpath 'com.growingio.android:vds-gradle-plugin:2.3.3'
     }
 }
 ```
@@ -41,7 +41,7 @@ android {
     }
 }
 dependencies {
-        compile 'com.growingio.android:vds-android-agent:2.3.2@aar'
+        compile 'com.growingio.android:vds-android-agent:2.3.3@aar'
 }
 ```
 
@@ -137,18 +137,10 @@ public class MyApplication extends Application {
     public void onResume();
     public void onPause();
 }
--keep class android.support.v4.app.Fragment {
-    public void setUserVisibleHint(boolean);
-    public void onHiddenChanged(boolean);
-    public void onResume();
-    public void onPause();
-}
--keep class * extends android.support.v4.app.Fragment {
-    public void setUserVisibleHint(boolean);
-    public void onHiddenChanged(boolean);
-    public void onResume();
-    public void onPause();
-}
+-dontwarn android.support.**
+-keep class android.support.**
+{ *; }
+
 -keep class com.growingio.android.sdk.collection.GrowingIOInstrumentation {
     public *;
     static <fields>;
