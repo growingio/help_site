@@ -361,7 +361,7 @@ Status Code: 200 OK
 |campaignIdIos|	String|iOS 活动|gnPNkoWA|
 |campaignIdAndroid|	String|	Android 活动|La9BwRne|
 |campaignNameIos| String|iOS 应用所属推广活动名称|Growingio 测试|
-|campaignIdAndroid|String|Android 应用所属推广活动名称|Growingio 测试|
+|campaignNameAndroid|String|Android 应用所属推广活动名称|Growingio 测试|
 |status|String| 状态|activated|
 |creatorId| String|创建人 id|GQPDxPNm|
 |creatorName|String|创建人名称|林生生|
