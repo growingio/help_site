@@ -4,11 +4,14 @@ from fabric.api import *
 
 env.hosts = "apps@cnprd3"
 
+
 @task
 def deploy():
     local("gitbook install")
     local("gitbook init")
     local("gitbook build")
+    local("sed '/<meta name=\"generator\"/ r BingMeta.txt' _book/index.html > _book/tmp_index.html")
+    local("cp -a _book/tmp_index.html _book/index.html")
     run('[ -d "/tmp/_book" ] && rm -rf /tmp/_book/* || mkdir -p /tmp/_book')
     put("_book/", "/tmp")
     run('[ -d "/tmp/_back" ] && rm -rf /tmp/_back/* || mkdir -p /tmp/_back')
@@ -17,7 +20,7 @@ def deploy():
     run("sudo /usr/sbin/nginx -s reload")
 
 
-#如何发布pdf
-#https://calibre-ebook.com/download 下载安装calibre
-#ln -s /Applications/calibre.app/Contents/MacOS/ebook-convert /usr/local/bin
-#gitbook pdf . GrowingIO帮助文档.pdf
+# 如何发布pdf
+# https://calibre-ebook.com/download 下载安装calibre
+# ln -s /Applications/calibre.app/Contents/MacOS/ebook-convert /usr/local/bin
+# gitbook pdf . GrowingIO帮助文档.pdf
