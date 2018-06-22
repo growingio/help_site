@@ -131,12 +131,6 @@ public class MyApplication extends Application {
 }
 -dontwarn com.growingio.android.sdk.**
 -keepnames class * extends android.view.View
--keep class * extends android.app.Fragment {
-    public void setUserVisibleHint(boolean);
-    public void onHiddenChanged(boolean);
-    public void onResume();
-    public void onPause();
-}
 -dontwarn android.support.**
 -keep class android.support.**
 { *; }
