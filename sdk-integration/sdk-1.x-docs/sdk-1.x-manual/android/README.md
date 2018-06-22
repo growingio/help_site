@@ -118,8 +118,9 @@ public class MyApp extends Application {
 -dontwarn com.growingio.android.sdk.**
 -keepnames class * extends android.view.View
 -dontwarn android.support.**
--keep class android.support.**
-{ *; }
+-keep class android.support.**{
+    *;
+}
 
 -keep class com.growingio.android.sdk.collection.GrowingIOInstrumentation {
     public *;
