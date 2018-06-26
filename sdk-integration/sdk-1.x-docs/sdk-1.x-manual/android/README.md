@@ -2,7 +2,6 @@
 
 从0.9.85版（2016年7月20日发布）起，SDK的集成方式发生变化，下方文档已经更新。
 
-新版SDK不支持Eclipse开发环境，如果需要请参考旧版集成文档，请点击[这里](https://github.com/growingio/help_site/tree/f4b4103b288205f6a9b13e0c4692f4d65a2ab386/SDK/Android_oldversion.html)
 
 注意：目前 Android SDK **不支持 Instant Run**，原因是 SDK 采用的 Hook 方案是字节码植入方案，植入是在编译时期，但是因为 Instant Run 是不完全编译所以会造成新更改的元素无法正常 Hook。如果您想要测试效果或者发版，采用一次全新编译即可。
 
