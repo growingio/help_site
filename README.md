@@ -1,67 +1,45 @@
-# GrowingIO帮助文档简介
+# 快速上手👏
+ > #### 这是一份新同学使用 GrowingIO 指南
 
-GrowingIO 是基于用户行为的新一代数据分析产品，吸取了国内外数据分析的最佳实践，创新了一整套数据采集、清洗整理、展现分析的一站式解决方案，帮助企业用数据驱动业务增长。
+欢迎使用 GrowingIO，我们为你准备了强大的数据采集和分析工具和服务，从这里开始你的数据分析之旅：
 
-你可以点击以下链接快速了解GrowingIO的基础数据模型以及相关的名词解释
+### 第一步：与工程师一起接入SDK
 
-* [预定义指标](implementation/data-model/predefined-metrics.md)
-* [预定义维度](implementation/data-model/predefined-dimensions.md)
-* [名词解释](faq/definitions.md)   
+1. [JS SDK 配置  ](https://docs.growingio.com/sdk-integration/sdk-2.x-docs/web-js-sdk-2.x/web-js-sdk-2.1-pagecode.html)
+2. [Android SDK 配置](https://docs.growingio.com/sdk-integration/sdk-2.x-docs/android-sdk-2.x/android-sdk-2.3.1.html/)
+3. [iOS SDK 配置](https://docs.growingio.com/sdk-integration/sdk-2.x-docs/ios-sdk-2.x/ios-sdk-2.3.1.html)
 
-GrowingIO支持丰富的用户平台数据采集，如:
+### 第二步：在工程师的协助下，进行重要配置
 
-* [iOS](sdk-integration/sdk-1.x-docs/sdk-1.x-manual/ios.md)
-* [Android](sdk-integration/sdk-1.x-docs/sdk-1.x-manual/android/README.md)
-* [Web](sdk-integration/sdk-1.x-docs/sdk-1.x-manual/js.md)    
+1. 如果你是单页面应用，请[进行配置](https://docs.growingio.com/sdk-integration/sdk-2.x-docs/web-js-sdk-2.x/system-variables.html)
+2. 95% 的用户都会上传[用户属性字段](https://docs.growingio.com/sdk-integration/sdk-2.x-docs/custom-data-implement-guide.html#%E7%94%A8%E6%88%B7%E5%8F%98%E9%87%8F%E9%85%8D%E7%BD%AE%EF%BC%9A)，这样你就可以知道产品内的行为是由具体的哪个用户做的。比如想要对比登录和未登录用户的差异，就需要上传登录用户ID。
 
-GrowingIO可以使用自定义变量来提高数据定义的灵活性，如:
+### 第三步：选择数据定义方式
 
-* 自定义事件
-* 事件级变量
-* [页面级变量](implementation/event-variable/custom-event/custom-variables-introduction/page-level-variable.md)
-* [转化变量](implementation/event-variable/custom-event/custom-variables-introduction/conversion-variable.md) 
+GrowingIO 提供了两种数据采集定义方式「无埋点 - 圈选」和「埋点 - 自定义事件和变量」：
 
-GrowingIO提供丰富的数据展现和分析工具，帮助您更好地了解用户行为，发掘业务洞察，如:
+1. 通过 [web圈选](https://docs.growingio.com/implementation/circle/web.html) 、[iOS / Android移动端圈选](https://docs.growingio.com/implementation/circle/mobile.html)进行数据定义。
+2. 通过埋点创[建自定义事件和变量](https://docs.growingio.com/implementation/event-variable/) 
+3. 了解 [GrowingIO 数据模型](https://docs.growingio.com/implementation/data-model/) 。
 
-* [事件分析](analytics-tools/event-analysis.md)
-* [漏斗分析](analytics-tools/funnel-analysis.md)
-* [留存分析](analytics-tools/cohort-analysis.md)
-* [热图](analytics-tools/heatmap/README.md)
-* [留存魔法师](analytics-tools/magic-cohort.md)
-* [用户活跃分析](analytics-tools/user-active-analysis.md)
-* [智能路径](analytics-tools/smart-flow-analysis.md)
-* [用户细查](analytics-tools/individual-user-report.md)
-* [用户分群](analytics-tools/user-segmentation.md)  
+### 第四步：使用数据分析工具
 
-通过分析工具创建的「事件分析」、「漏斗分析」和「留存分析」图表都可以在**"单图"** 中管理； 多个分析图表可以有效组合成业务**"看板"** 进行监控分析，及时获知业务异常，快速响应； 您可以将最常用的看板添加到**"首页"** 以便更直接地访问为了帮助您更好地使用； 此外，我们将常见的业务场景总结成了**"业务模板"** 供您参考；
+1. 事件分析 [文档](https://docs.growingio.com/analytics-tools/event-analysis.html) | [使用手册](https://s.growingio.com/nvN9MB)
+2. 漏斗分析 [文档](https://docs.growingio.com/analytics-tools/funnel-analysis.html) | [使用手册](https://s.growingio.com/9PXbR0) | [视频](https://s.growingio.com/kKdDjv)
+3. 留存分析 [文档](https://docs.growingio.com/analytics-tools/cohort-analysis.html) | [使用手册](https://s.growingio.com/p8QD3x) | [视频](https://s.growingio.com/4PpoAK)
+4. 用户分群 [文档](https://docs.growingio.com/analytics-tools/user-segmentation.html) | [视频](https://s.growingio.com/ambRb4) 
+5. 广告监测 [文档](https://docs.growingio.com/ad-tracking/) | [视频1](https://s.growingio.com/DmQMzB) | [视频2](https://s.growingio.com/KqZEP3) | [视频3](https://s.growingio.com/jvoRdB)
+6. 智能路径 [文档](https://docs.growingio.com/analytics-tools/smart-flow-analysis.html)
+7. 留存魔法师 [文档 ](https://docs.growingio.com/analytics-tools/magic-cohort.html)
+8. 热图 [文档](https://docs.growingio.com/analytics-tools/heatmap/)
+9. 实时分析 [文档](https://docs.growingio.com/visualization/realtime.html)
+10. 概览分析 [文档](https://docs.growingio.com/visualization/overview.html)
+1. 业务场景 [文档](https://docs.growingio.com/visualization/scenarios.html)
+### 第五步：开始进行分析
+我们提供了一些主要功能的产品使用手册，希望可以为你带来帮助：
 
-* [首页](visualization/homepage.md)
-  * [概览](visualization/overview.md)
-  * [实时](visualization/realtime.md)
-* [看板](visualization/dashboard.md)
-* [业务场景](visualization/scenarios.md)
-* [单图](visualization/charts.md)    
-
-GrowingIO 还可以帮助您推广网站/App并衡量推广效果，监测不同渠道质量，并提供渠道反作弊等多重强大能力：
-
-* [广告监测](ad-tracking/README.md)
-* [推广网站](ad-tracking/web-marketing/README.md)
-* [推广App](ad-tracking/app-marketing/README.md)   
-
-此外我们还提供了完整的产品更新日志，若想了解产品的迭代历程，可以点击进行查看：
-
-* [产品更新日志](product-change-log.md)  
-* [API更新日志](api-change-log.md)    
-
-若在使用GrowingIO时遇到问题，可点击查看：
-
-* [常见问题](faq/README.md)
-
-GrowingIO产品使用手册：
-
-* [使用手册目录](https://s.growingio.com/074AKo)
-* [事件分析使用手册](https://s.growingio.com/nvN9MB)
-* [漏斗分析使用手册](https://s.growingio.com/9PXbR0)
-* [留存分析使用手册](https://s.growingio.com/p8QD3x)
-* [指标和维度使用手册](https://s.growingio.com/NLdx0O)
-
+1. [指标和维度使用手册](https://s.growingio.com/NLdx0O)
+2. [事件分析使用手册](https://s.growingio.com/nvN9MB)
+3. [漏斗分析使用手册](https://s.growingio.com/9PXbR0)
+4. [留存分析使用手册](https://s.growingio.com/p8QD3x)
+5. [用户分群使用手册](https://s.growingio.com/9PaAZ8)
