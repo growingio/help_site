@@ -16,7 +16,7 @@
 ### 下载权限
 分群的下载受到权限控制，如果您没有权限下载某个分群，会看到分群按钮是不可用地状态，hover时提示您没有分群地下载权限。如果您想要下载该该分群，可以向分群创建者申请权限。
 ### 分群ID类型
-![](https://github.com/growingio/help_site/blob/master/segmentation_v2/%20%E9%80%89%E6%8B%A9%E7%94%A8%E6%88%B7%20ID%E7%B1%BB%E5%9E%8B.png)
+![](../segmentation_v2/%20%E9%80%89%E6%8B%A9%E7%94%A8%E6%88%B7%20ID%E7%B1%BB%E5%9E%8B.png)
 
 每个分群都是基于特定的ID类型得到的：登录用户ID 或 访问用户ID。如何判断您创建的分群是哪种ID类型？
 1. 通过漏斗或者留存下钻创建的分群：会继承对应漏斗或留存的用户ID类型
@@ -51,18 +51,18 @@
 选择 "用户做过"某个事件时，可以进一步通过过滤条件来限定该事件发生的特定条件。可以用来过滤事件的维度包括：您在项目中上传的自定义用户属性；GrowingIO SDK 默认采集的访问相关的维度包括设备信息，地域信息，用户来源（包括广告渠道），页面维度；以及通过埋点上传的各种变量。    
 比如，可以在第一条默认规则上过滤叫条件 "浏览器 = chrome"；意思是在过去7天，至少用 chrome 浏览器访问过一次的用户。
 
-![](https://github.com/growingio/help_site/blob/master/segmentation_v2/%E4%BA%8B%E4%BB%B6%E7%9A%84%E8%BF%87%E6%BB%A4.png)
+![](../segmentation_v2/%E4%BA%8B%E4%BB%B6%E7%9A%84%E8%BF%87%E6%BB%A4.png)
 ##### 用户是/不是
 选择"用户是/不是"，可以通过用户属性来定位目标用户。可以选择的维度包括您在项目中上传的自定义用户属性；GrowingIO SDK 默认采集的访问相关的维度包括设备信息，用户来源（包括广告渠道），地域信息等。比如，选择 "用户是 访问来源 = 直接访问 过去7天"，代表的是过去7天，曾经通过直接访问来到产品的用户。 
 
-![](https://github.com/growingio/help_site/blob/master/segmentation_v2/%E7%94%A8%E6%88%B7%E6%98%AF.png)
+![](../segmentation_v2/%E7%94%A8%E6%88%B7%E6%98%AF.png)
 
 ##### 时间范围选择
 时间控件红选择 (起始日期，结束日期)；其中，"起始日期"最早可选择到的日期是当前项目的接入日期，"结束日期"最近时间可以选择到昨天。同时，结束日期和起始日期之间的时间间隔最多可以选择62天，也就是说您可以观测一个时间长度小于等于62天的一个用户群体。
 ##### 不同条件的连接
 我们提供了 "条件组"的概念，一个条件组内可以用 OR 连接5个不同的条件；不同的条件组之间用 AND 连接，也可以将 AND 切换成 OR。  
 
-![](https://github.com/growingio/help_site/blob/master/segmentation_v2/%E6%9D%A1%E4%BB%B6%E7%BB%84%E5%92%8C%E6%9D%A1%E4%BB%B6.png)
+![](../segmentation_v2/%E6%9D%A1%E4%BB%B6%E7%BB%84%E5%92%8C%E6%9D%A1%E4%BB%B6.png)
 ##### 分群条件数量上限
 最多添加10个条件组；    
 每个条件组多支持添加你10个条件；    
@@ -73,12 +73,12 @@
 在您创建分群的过程中，每次修改一个分群条件，包括：修改一个分群条件，新增一个分群条件，删除一个分群条件；右侧可视化区域都会实时反馈分群人数的变化和比率  。比率的的计算方法是：当前分群条件下计算的人数/第一个分群条件对应的日期范围，有过访问的全部用户。    
 根据用户 ID类型是"登录用户 ID"还是"访问用户 ID"，计算比率时分母取相应的访问用户量或登录用户量。 
 
-![](https://github.com/growingio/help_site/blob/master/segmentation_v2/%E5%88%86%E7%BE%A4%E4%BA%BA%E6%95%B0%E5%8F%AF%E8%A7%86%E5%8C%96.png)
+![](../segmentation_v2/%E5%88%86%E7%BE%A4%E4%BA%BA%E6%95%B0%E5%8F%AF%E8%A7%86%E5%8C%96.png)
 #### 4. 保存分群，设定分群名称和权限
 点击"保存"，在控件中输入名称，设置权限后完成保存。
 需要注意的是，此处会对分群名称做校验，包括重复命名，名称为空等一些异常情况。其中，重命名校验是在整个项目范围内进行的；您可能没有创建过相同名称的分群，但您所在的项目已经存在了该名称分群。  
 
-![](https://github.com/growingio/help_site/blob/master/segmentation_v2/%E4%BF%9D%E5%AD%98%E5%88%86%E7%BE%A4%E6%8E%A7%E4%BB%B6.png)
+![](../segmentation_v2/%E4%BF%9D%E5%AD%98%E5%88%86%E7%BE%A4%E6%8E%A7%E4%BB%B6.png)
 ### 上传登陆用户ID
 您可能遇到过这样的场景：
 1. 通过第三方系统举办了一场线上公开课，希望追踪报名并且参加了课程的用户后续在产品中的转化和使用情况。
@@ -90,9 +90,9 @@
 分群列表页可以看到"上传登录用户 ID" 入口，需要注意的是，是否可以上传受到2个因素的限制：
 1. 项目中是否配置了用户变量，如果没有配置，则无法上传，具体参考[说明](https://docs.growingio.com/sdk-integration/sdk-2.x-docs/custom-data-implement-guide.html#%E7%94%A8%E6%88%B7%E5%8F%98%E9%87%8F%E9%85%8D%E7%BD%AE%EF%BC%9A)； 
 
-![](https://github.com/growingio/help_site/blob/master/segmentation_v2/%E4%B8%8A%E4%BC%A0%E7%99%BB%E5%BD%95%E7%94%A8%E6%88%B7%20ID%20%EF%BC%88%E6%B2%A1%E6%9C%89%20CS1%EF%BC%89.png)
+![](../segmentation_v2/%E4%B8%8A%E4%BC%A0%E7%99%BB%E5%BD%95%E7%94%A8%E6%88%B7%20ID%20%EF%BC%88%E6%B2%A1%E6%9C%89%20CS1%EF%BC%89.png)
 
-![](https://github.com/growingio/help_site/blob/master/segmentation_v2/%E4%B8%8A%E4%BC%A0%E7%99%BB%E5%BD%95%E7%94%A8%E6%88%B7%E5%85%A5%E5%8F%A3%EF%BC%88%E6%9C%89CS1%EF%BC%89.png)
+![](../segmentation_v2/%E4%B8%8A%E4%BC%A0%E7%99%BB%E5%BD%95%E7%94%A8%E6%88%B7%E5%85%A5%E5%8F%A3%EF%BC%88%E6%9C%89CS1%EF%BC%89.png)
 #### 2. 上传限制
 1. 目前只支持 .csv 格式文件
 2. 文件大小不超过 1M
