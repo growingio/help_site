@@ -70,6 +70,18 @@
 
 **技术说明／备注：**Traffic Source 的最细分的级别是Referring Sites，即哪些网站或是搜索引擎为你贡献了流量，但却无法细分到具体的广告。可以通过设置UTM参数来确定流量具体是哪个广告带来的。
 
+**访问来源中微信类来源:** 微信目前是一个非常重要的流量来源。一般不考虑广点通等付费推广的话，微信渠道上很多H5\WEB等有非常成熟的使用和分享、获客场景，根据微信环境中打开的数据参数，GrowingIO 识别了几种微信环境访问 H5/PC 的分类，常见的用例有这样几种：
+
+| 场景 | 对应GrowingIO访问来源 | 解释 |
+| --- | --- | --- |
+| 扫描二维码在微信中打开H5页面查看 | 微信-其他 | 如果不使用GrowingIO生成具体的追踪链接，仅可以识别微信环境打开；如果想要识别具体的二维码的信息，例如那篇文章的，哪个公众号等，详情可以了解[广告监测链接](https://docs.growingio.com/ad-tracking/web-marketing/#推广网站)的相关功能。 |
+| 公众号中查看图文消息-点击“阅读原文” | 微信-公众号 | GroiwngIO会识别到微信的环境，微信会返回“公众号”访问来源链接（例如mp.weixinbridge.com)，即可以判断出公众号的来源。 |
+| 公众号直接给文字/图片链接，用户打开 | 微信-其他 | 如果不使用GrowingIO生成具体的追踪链接，仅可以识别微信环境打开；如果想要识别具体的二维码的信息，例如那篇文章的，哪个公众号等，详情可以了解[广告监测链接](https://docs.growingio.com/ad-tracking/web-marketing/#推广网站)的相关功能。 |
+| 朋友圈里查看分享的页面类链接 | 微信-朋友圈 | GroiwngIO会识别到微信的环境，同时微信会给出相应的技术参数，即可以判断为朋友圈打开。 |
+| 查看分享给群组的页面链接 | 微信-群聊 | GroiwngIO会识别到微信的环境，同时微信会给出相应的技术参数，即可以判断为群组信息中打开。 |
+| 查看分享给单个好友的页面链接 | 微信-单聊 | GroiwngIO会识别到微信的环境，同时微信会给出相应的技术参数，即可以判断为好友信息中打开。 |
+| 打开分享到朋友圈、群聊、单聊消息中的URL链接 | 微信-其他 | 如果仅是URL，只会追踪具体的URL，但可以识别在微信环境中打开。 |
+
 ###  **一级访问来源**
 
 **定义**:一级访问来源将访问来源分为直接访问，搜索引擎，社交媒体，外部链接四大部分。
@@ -94,7 +106,7 @@
 
 **搜索引擎：** 来自以下地址的均属于搜索引擎：www.baidu.com，m.baidu.com，bzclk.baidu.com， so.com, sogou.com（soso.com已指向这里）, bing.com, youdao.com，zhongsou.com，google.xx.xx（Google在全世界有各种各样的域名），sm.cn（神马搜索\),yahoo.com。
 
-**社交媒体：** 来自以下地址均属于社交媒体：weibo.com，t.cn, weibo.cn,zhihu.com，linkedin.com，lnkd.in，renren.com，facebook.com，twitter.com，mp.weixin.qq.com，wx.qq.com，im.dingtalk.com，mp.weixinbridge.com。
+**社交媒体：** 来自以下地址均属于社交媒体：weibo.com，t.cn, weibo.cn,zhihu.com，linkedin.com，lnkd.in，renren.com，facebook.com，twitter.com，mp.weixin.qq.com，wx.qq.com，im.dingtalk.com，mp.weixinbridge.com; 由于目前微信已经作为一个较重要的访问来源，所以 GrowingIO 目前专门针对微信环境做了判定；，如果 PC 网页或 H5 的访问是发生在 wechat 环境中，也会被归入社交媒体，而根据不同的微信后置参数，进一步区分访问来源，详情请看访问来源中微信来源的维度解释。
 
 **外部链接：** 除了社交媒体，搜索网站之外的来源。
 
