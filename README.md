@@ -35,7 +35,9 @@ GrowingIO 提供了两种数据采集定义方式「无埋点 - 圈选」和「�
 9. 实时分析 [文档](https://docs.growingio.com/visualization/realtime.html)
 10. 概览分析 [文档](https://docs.growingio.com/visualization/overview.html)
 1. 业务场景 [文档](https://docs.growingio.com/visualization/scenarios.html)
+
 ### 第五步：开始进行分析
+
 我们提供了一些主要功能的产品使用手册，希望可以为你带来帮助：
 
 1. [指标和维度使用手册](https://s.growingio.com/NLdx0O)
