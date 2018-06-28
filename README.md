@@ -19,7 +19,7 @@
 GrowingIO 提供了两种数据采集定义方式「无埋点 - 圈选」和「埋点 - 自定义事件和变量」：
 
 1. 通过 [web圈选](https://docs.growingio.com/implementation/circle/web.html) 、[iOS / Android移动端圈选](https://docs.growingio.com/implementation/circle/mobile.html)进行数据定义。
-2. 通过埋点创[建自定义事件和变量](https://docs.growingio.com/implementation/event-variable/) 
+2. 通过埋点[创建自定义事件和变量](https://docs.growingio.com/implementation/event-variable/) 
 3. 了解 [GrowingIO 数据模型](https://docs.growingio.com/implementation/data-model/) 。
 
 ### 第四步：使用数据分析工具
