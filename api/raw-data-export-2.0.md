@@ -17,6 +17,13 @@
 
 GET [https://www.growingio.com/v2/insights/{export\_type}/{data\_type}/{ai}/{export\_date}.json](https://www.growingio.com/v2/insights/{export_type}/{data_type}/{ai}/{export_date}.json)?expire={minutes}
 
+在 Header 里面添加两个属性：
+
+| 名字 | 类型 | 描述 | 示例 |
+| :--- | :--- | :--- | :--- |
+| X-Client-Id | String | GrowingIO 分配的公钥，请在GrowingIO后台“项目配置”页面获取 | X-Client-Id: 123abc |
+| Authorization | String | 认证后获取到的 Token | Authorization: Token xxxxxx |
+
 其中
 
 * {export\_type} —— 导出任务类型，系统目前支持小时与天数据的导出，可选值为：
