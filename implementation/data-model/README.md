@@ -51,10 +51,12 @@ GrowingIO的数据模型可以表示如下：
    26. M：总进入时长（Total Time Spent on Entry）\[Web\]
    27. M：平均进入时长（Average Time Spent per Entry）\[Web\]
    28. M：每次进入页面浏览量（Average Page View Per Entry）\[Web\]
-   29. M：跳出次数（Bounce）\[Web\]
-   30. M：跳出率（Bounce Rate）\[Web\]
-   31. M：退出（Exit）
-   32. M：退出率（Exit Rate）
+   29. M：总页面停留时长（Total Time Spent on Page）\[Web\]
+   30. M：平均页面停留时长（Average Time Spent on Page）\[Web\]
+   31. M：跳出次数（Bounce）\[Web\]
+   32. M：跳出率（Bounce Rate）\[Web\]
+   33. M：退出（Exit）\[Web\]
+   34. M：退出率（Exit Rate）\[Web\]
 3. **C：页面浏览（PageView）**
    1. D：域名（Domain）\[Web\]
    2. D：页面（Page）\[Web\]
