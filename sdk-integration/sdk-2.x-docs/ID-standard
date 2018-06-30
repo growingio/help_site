@@ -1,0 +1,7 @@
+# GrowingIO SDK 2.x 标识符规范
+
+GrowingIO系统中：track接口的eventId，page.set接口的key，evar.set接口的key，people.set接口的key，以及以上这些接口JSON对象参数中的key-value pair的key称为标识符。对于这些标识符，GrowingIO SDK要求符合以下规则：
+标识符不允许空字符串，不允许null
+标识符的长度限制在50个英文字符之内
+标识符仅允许大小写英文、数字、下划线、以及英文冒号，并且不能以数字和冒号开头
+SDK在数据发送是检测到标识符如果不符合上述规则，将通过log的方式警告工程师，提示标识符不合法。
