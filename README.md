@@ -8,6 +8,7 @@
 1. [JS SDK 配置  ](https://docs.growingio.com/sdk-integration/sdk-2.x-docs/web-js-sdk-2.x/web-js-sdk-2.1-pagecode.html)
 2. [Android SDK 配置](https://docs.growingio.com/sdk-integration/sdk-2.x-docs/android-sdk-2.x/android-sdk-2.3.1.html/)
 3. [iOS SDK 配置](https://docs.growingio.com/sdk-integration/sdk-2.x-docs/ios-sdk-2.x/ios-sdk-2.3.1.html)
+4. [小程序 SDK 配置](https://growingio.gitbook.io/miniprogram/tag-management)
 
 ### 第二步：在工程师的协助下，进行重要配置
 
@@ -18,7 +19,7 @@
 
 GrowingIO 提供了两种数据采集定义方式「无埋点 - 圈选」和「埋点 - 自定义事件和变量」：
 
-1. 通过 [web圈选](https://docs.growingio.com/implementation/circle/web.html) 、[iOS / Android移动端圈选](https://docs.growingio.com/implementation/circle/mobile.html)进行数据定义。
+1. 通过 [web圈选](https://docs.growingio.com/implementation/circle/web.html) 、[iOS / Android移动端圈选](https://docs.growingio.com/implementation/circle/mobile.html)、[小程序圈选](https://growingio.gitbook.io/miniprogram/metric-definition)进行数据定义。
 2. 通过埋点[创建自定义事件和变量](https://docs.growingio.com/implementation/event-variable/) 
 3. 了解 [GrowingIO 数据模型](https://docs.growingio.com/implementation/data-model/) 。
 
@@ -33,7 +34,7 @@ GrowingIO 提供了两种数据采集定义方式「无埋点 - 圈选」和「�
 7. 留存魔法师 [文档 ](https://docs.growingio.com/analytics-tools/magic-cohort.html)
 8. 热图 [文档](https://docs.growingio.com/analytics-tools/heatmap/)
 9. 实时分析 [文档](https://docs.growingio.com/visualization/realtime.html)
-10. 概览分析 [文档](https://docs.growingio.com/visualization/overview.html)
+10. 概览分析 [文档](https://docs.growingio.com/visualization/overview.html)、小程序概览 [文档](https://growingio.gitbook.io/miniprogram/dashboard-overview)
 1. 业务场景 [文档](https://docs.growingio.com/visualization/scenarios.html)
 
 ### 第五步：开始进行分析
