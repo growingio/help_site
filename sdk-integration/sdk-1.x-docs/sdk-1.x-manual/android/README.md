@@ -89,7 +89,6 @@ public class MyApp extends Application {
     public void onCreate() {
         super.onCreate();
         GrowingIO.startWithConfiguration(this, new Configuration()
-                .useID()
                 .trackAllFragments()
                 .setChannel("XXX应用商店")
                 .setDebugMode(true); //打开调试Log
@@ -99,10 +98,9 @@ public class MyApp extends Application {
 
 1. 请确保将代码添加在\`Application\` 的 \`onCreate\` 方法中，添加到其他方法中可能导致数据不准确。
 2. 其中`GrowingIO.startWithConfiguration`第一个参数为 `Application` 对象。
-3. 使用`useID`方法，能够更准确地统计界面元素，一般建议添加。
-4. 对于已经集成过旧版SDK并圈选过的应用，调用`useID`会导致新圈选的指标数值从零开始计算，类似初次集成SDK后发版的效果，但不影响之前圈选的指标数据。如果不希望出现这种情况，请去掉这个方法的调用。
-5. `trackAllFragments`方法用于把`Fragment`自动识别为页面，但一个界面中只能同时显示一个`Fragment`。
-6. `setChannel`方法的参数是渠道的名称。
+3. 对于已经集成过旧版SDK并圈选过的应用，调用`useID`会导致新圈选的指标数值从零开始计算，类似初次集成SDK后发版的效果，但不影响之前圈选的指标数据。如果不希望出现这种情况，请去掉这个方法的调用。
+4. `trackAllFragments`方法用于把`Fragment`自动识别为页面，但一个界面中只能同时显示一个`Fragment`。
+5. `setChannel`方法的参数是渠道的名称。
 
 添加代码之后，请先Clean项目，然后再进行编译。
 
