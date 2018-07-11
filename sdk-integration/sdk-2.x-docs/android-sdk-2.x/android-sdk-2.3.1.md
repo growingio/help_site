@@ -14,7 +14,7 @@ buildscript {
     }
     dependencies {
         //gradle建议版本
-        classpath 'com.android.tools.build:gradle:3.0.1'
+        classpath 'com.android.tools.build:gradle:3.1.3'
         classpath 'com.growingio.android:vds-gradle-plugin:2.3.3'
     }
 }
@@ -101,7 +101,6 @@ public class MyApplication extends Application {
     public void onCreate() {
         super.onCreate();
         GrowingIO.startWithConfiguration(this, new Configuration()
-        .useID()
         .trackAllFragments()
         .setChannel("XXX应用商店"))
         .setDebugMode(true); //打开调试Log
@@ -113,11 +112,9 @@ public class MyApplication extends Application {
 
 （2）其中`GrowingIO.startWithConfiguration`第一个参数为`Application`对象。
 
-（3）使用`useID`方法，能够更准确地统计界面元素，一般建议添加。
+（3）`trackAllFragments`方法用于把`Fragment`自动识别为页面，但一个界面中只能同时显示一个`Fragment`。
 
-（4）`trackAllFragments`方法用于把`Fragment`自动识别为页面，但一个界面中只能同时显示一个`Fragment`。
-
-（5）`setChannel`方法的参数定义了“自定义App渠道”这个维度的值。
+（4）`setChannel`方法的参数定义了“自定义App渠道”这个维度的值。
 
 添加代码之后，**请先 Clean 项目**，然后再进行编译。
 
