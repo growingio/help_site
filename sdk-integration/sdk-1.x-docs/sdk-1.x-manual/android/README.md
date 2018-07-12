@@ -358,7 +358,7 @@ GrowingIO.setViewContent(View view, String content);
 如果您需要忽略某些特殊内容，比如倒计时元素或涉及隐私的内容，可以使用该功能。
 
 ```java
-GrowingIO.ignoreView(View view)
+GrowingIO.ignoredView(View view)
 ```
 
 ### 设置元素对象
